@@ -1,0 +1,1 @@
+Hey you! Yeah, you! Have YOU ever played DND? Yeah? Have you played DND and done some CRAZZZZY physics???? That's pretty crazy. Maybe TOO crazy. Maybe we need to return to form, to the physics of the REAL world. Forces, energy, work, you name it. Let us harken back to the golden ages of physics with our DND Physics engine. Come, revel in the glory of physics. Hurrah!
