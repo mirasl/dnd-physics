@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class Player : Spatial
+public class Player : Entity
 {
     // Declare member variables here. Examples:
     // private int a = 2;
