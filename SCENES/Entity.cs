@@ -3,6 +3,7 @@ using System;
 
 public class Entity : Spatial
 {
+    [Signal] delegate void EntityDie();
     const float GRAVITY = 9.8f;
     // Declare member variables here. Examples:
     // private int a = 2;
@@ -51,8 +52,8 @@ public class Entity : Spatial
     {
         currenthp -= damage;
         stamina -= damage;
-        if (currenthp <= 0) {
-            
+        if (currenthp <= 0 || stamina <= 0) {
+            EmitSignal("EntityDie");
         }
     }
 
