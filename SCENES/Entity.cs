@@ -8,6 +8,7 @@ public class Entity : Spatial
     // private int a = 2;
     // private string b = "text";
     public int hp;
+    public int currenthp;
     public int str;
     public int mass;
     public int stamina;
@@ -44,6 +45,15 @@ public class Entity : Spatial
             damage = distance * str;
         }
         return damage;
+    }
+
+    public void ChangeHP()
+    {
+        currenthp -= damage;
+        stamina -= damage;
+        if (currenthp <= 0) {
+            
+        }
     }
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
