@@ -4,6 +4,7 @@ using System;
 public class Entity : Spatial
 {
     [Signal] delegate void EntityDie();
+	
     const float GRAVITY = 9.8f;
     // Declare member variables here. Examples:
     // private int a = 2;
@@ -36,13 +37,20 @@ public class Entity : Spatial
     public float GetDamage(float length, float area, Direction choice, int distance)
     {
     	float damage = 0;
-        if (choice == Direction.Side) {
+        if (choice == Direction.Side) 
+		{
             damage = (weapon.Length * (Mathf.Pi / 2) * (str));
-        } else if (choice == Direction.Top) {
+        } 
+		else if (choice == Direction.Top) 
+		{
             damage = (weapon.Length * (Mathf.Pi / 2) * (str) + (mass * GRAVITY * (height/2)));
-        } else if (choice == Direction.Bottom) {
+        } 
+		else if (choice == Direction.Bottom) 
+		{
             damage = (weapon.Length * (Mathf.Pi / 2) * (str) - (mass * GRAVITY * (height/2)));
-        } else if (choice == Direction.Stab) {
+        } 
+		else if (choice == Direction.Stab) 
+		{
             damage = distance * str;
         }
         return damage;
