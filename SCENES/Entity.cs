@@ -1,10 +1,11 @@
 using Godot;
 using System;
 
-public class Entity : Spatial
+public class Entity : Node2D
 {
     [Signal] delegate void EntityDie();
-	
+	[Signal] delegate void ToActiveMode(Entity self);
+
     const float GRAVITY = 9.8f;
     // Declare member variables here. Examples:
     // private int a = 2;
@@ -17,14 +18,23 @@ public class Entity : Spatial
     public int damage;
     public int height;
     public Weapon weapon;
-    
 
 
-    // Called when the node enters the scene tree for the first time.
-    public override void _Ready()
-    {
-        
-    }
+	public override void _PhysicsProcess(float delta)
+	{
+		if (MouseHovering())
+		{
+			Modulate = new Color(0.5f,0.5f,0.5f);
+			if (Input.IsActionJustPressed("leftclick"))
+			{
+				EmitSignal("ToActiveMode", this);
+			}
+		}
+		else
+		{
+			Modulate = Colors.White;
+		}
+	}
 
     public enum Direction
     {
@@ -65,9 +75,9 @@ public class Entity : Spatial
         }
     }
 
-//  // Called every frame. 'delta' is the elapsed time since the previous frame.
-//  public override void _Process(float delta)
-//  {
-//      
-//  }
+	public bool MouseHovering()
+	{
+		Vector2 mousePos = GetLocalMousePosition();
+		return mousePos.x < 14 && mousePos.x > 0 && mousePos.y > 0 && mousePos.y < 22;
+	}
 }

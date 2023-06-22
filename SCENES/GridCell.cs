@@ -3,11 +3,23 @@ using System;
 
 public class GridCell : AnimatedSprite
 {
+	Level level;
+
+
+	public override void _Ready()
+	{
+		level = GetNode<Level>("/root/Level"); // !!! BAD CODE ALERT, TOO BAD LMAO
+	}
+
 	public override void _PhysicsProcess(float delta)
 	{
-		if (MouseHovering())
+		if (MouseHovering() && level.ActiveMode)
 		{
 			Animation = "hover";
+			if (Input.IsActionJustPressed("leftclick"))
+			{
+				level.MoveEntityToTile(Position);
+			}
 		}
 		else
 		{
