@@ -39,6 +39,6 @@ public class Camera : Camera2D
 		{
 			Zoom -= Vector2.One*0.2f;
 		}
-		Position += velocity;
+		Position += velocity * Zoom.x;
 	}
 }
