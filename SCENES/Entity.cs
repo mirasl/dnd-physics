@@ -33,15 +33,15 @@ public class Entity : Spatial
         Stab
     }
 
-    public int GetDamage(float length, float area, int choice, int distance)
+    public float GetDamage(float length, float area, Direction choice, int distance)
     {
-        int damage;
+    	float damage = 0;
         if (choice == Direction.Side) {
-            damage = (weapon.getLength(length) * (Mathf.Pi / 2) * (str)) / area;
+            damage = (weapon.Length * (Mathf.Pi / 2) * (str));
         } else if (choice == Direction.Top) {
-            damage = (weapon.getLength(length) * (Mathf.Pi / 2) * (str) + (mass * GRAVITY * (height/2))) / area;
+            damage = (weapon.Length * (Mathf.Pi / 2) * (str) + (mass * GRAVITY * (height/2)));
         } else if (choice == Direction.Bottom) {
-            damage = (weapon.getLength(length) * (Mathf.Pi / 2) * (str) - (mass * GRAVITY * (height/2))) / area;
+            damage = (weapon.Length * (Mathf.Pi / 2) * (str) - (mass * GRAVITY * (height/2)));
         } else if (choice == Direction.Stab) {
             damage = distance * str;
         }

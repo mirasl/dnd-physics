@@ -1,0 +1,652 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://SCENES/GridCell.tscn" type="PackedScene" id=1]
+
+[node name="Grid" type="Node2D"]
+
+[node name="GridCell" parent="." instance=ExtResource( 1 )]
+
+[node name="GridCell2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 0 )
+
+[node name="GridCell3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 0 )
+
+[node name="GridCell4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 0 )
+
+[node name="GridCell5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 0 )
+
+[node name="GridCell6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 0 )
+
+[node name="GridCell7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 0 )
+
+[node name="GridCell8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 0 )
+
+[node name="GridCell9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 0 )
+
+[node name="GridCell10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 0 )
+
+[node name="GridCell11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 0 )
+
+[node name="GridCell12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 0 )
+
+[node name="GridCell13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 0 )
+
+[node name="GridCell14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 0 )
+
+[node name="GridCell15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 0 )
+
+[node name="GridCell16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 0 )
+
+[node name="GridCell17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 0 )
+
+[node name="GridCell18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 0 )
+
+[node name="GridCell19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 0 )
+
+[node name="GridCell20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 0 )
+
+[node name="GridCell21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 0 )
+
+[node name="GridCell22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 0 )
+
+[node name="GridCell23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 0 )
+
+[node name="GridCell24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 0 )
+
+[node name="GridCell25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 16 )
+
+[node name="GridCell26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 16 )
+
+[node name="GridCell27" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 16 )
+
+[node name="GridCell28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 16 )
+
+[node name="GridCell29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 16 )
+
+[node name="GridCell30" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 16 )
+
+[node name="GridCell31" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 16 )
+
+[node name="GridCell32" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 16 )
+
+[node name="GridCell33" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 16 )
+
+[node name="GridCell34" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 16 )
+
+[node name="GridCell35" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 16 )
+
+[node name="GridCell36" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 16 )
+
+[node name="GridCell37" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 16 )
+
+[node name="GridCell38" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 16 )
+
+[node name="GridCell39" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 16 )
+
+[node name="GridCell40" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 16 )
+
+[node name="GridCell41" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 16 )
+
+[node name="GridCell42" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 16 )
+
+[node name="GridCell43" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 16 )
+
+[node name="GridCell44" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 16 )
+
+[node name="GridCell45" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 16 )
+
+[node name="GridCell46" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 16 )
+
+[node name="GridCell47" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 16 )
+
+[node name="GridCell48" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 16 )
+
+[node name="GridCell49" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 32 )
+
+[node name="GridCell50" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 32 )
+
+[node name="GridCell51" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 32 )
+
+[node name="GridCell52" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 32 )
+
+[node name="GridCell53" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 32 )
+
+[node name="GridCell54" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 32 )
+
+[node name="GridCell55" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 32 )
+
+[node name="GridCell56" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 32 )
+
+[node name="GridCell57" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 32 )
+
+[node name="GridCell58" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 32 )
+
+[node name="GridCell59" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 32 )
+
+[node name="GridCell60" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 32 )
+
+[node name="GridCell61" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 32 )
+
+[node name="GridCell62" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 32 )
+
+[node name="GridCell63" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 32 )
+
+[node name="GridCell64" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 32 )
+
+[node name="GridCell65" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 32 )
+
+[node name="GridCell66" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 32 )
+
+[node name="GridCell67" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 32 )
+
+[node name="GridCell68" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 32 )
+
+[node name="GridCell69" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 32 )
+
+[node name="GridCell70" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 32 )
+
+[node name="GridCell71" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 32 )
+
+[node name="GridCell72" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 32 )
+
+[node name="GridCell73" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 48 )
+
+[node name="GridCell74" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 48 )
+
+[node name="GridCell75" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 48 )
+
+[node name="GridCell76" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 48 )
+
+[node name="GridCell77" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 48 )
+
+[node name="GridCell78" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 48 )
+
+[node name="GridCell79" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 48 )
+
+[node name="GridCell80" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 48 )
+
+[node name="GridCell81" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 48 )
+
+[node name="GridCell82" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 48 )
+
+[node name="GridCell83" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 48 )
+
+[node name="GridCell84" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 48 )
+
+[node name="GridCell85" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 48 )
+
+[node name="GridCell86" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 48 )
+
+[node name="GridCell87" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 48 )
+
+[node name="GridCell88" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 48 )
+
+[node name="GridCell89" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 48 )
+
+[node name="GridCell90" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 48 )
+
+[node name="GridCell91" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 48 )
+
+[node name="GridCell92" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 48 )
+
+[node name="GridCell93" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 48 )
+
+[node name="GridCell94" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 48 )
+
+[node name="GridCell95" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 48 )
+
+[node name="GridCell96" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 48 )
+
+[node name="GridCell97" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 64 )
+
+[node name="GridCell98" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 64 )
+
+[node name="GridCell99" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 64 )
+
+[node name="GridCell100" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 64 )
+
+[node name="GridCell101" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 64 )
+
+[node name="GridCell102" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 64 )
+
+[node name="GridCell103" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 64 )
+
+[node name="GridCell104" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 64 )
+
+[node name="GridCell105" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 64 )
+
+[node name="GridCell106" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 64 )
+
+[node name="GridCell107" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 64 )
+
+[node name="GridCell108" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 64 )
+
+[node name="GridCell109" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 64 )
+
+[node name="GridCell110" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 64 )
+
+[node name="GridCell111" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 64 )
+
+[node name="GridCell112" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 64 )
+
+[node name="GridCell113" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 64 )
+
+[node name="GridCell114" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 64 )
+
+[node name="GridCell115" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 64 )
+
+[node name="GridCell116" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 64 )
+
+[node name="GridCell117" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 64 )
+
+[node name="GridCell118" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 64 )
+
+[node name="GridCell119" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 64 )
+
+[node name="GridCell120" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 64 )
+
+[node name="GridCell121" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 80 )
+
+[node name="GridCell122" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 80 )
+
+[node name="GridCell123" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 80 )
+
+[node name="GridCell124" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 80 )
+
+[node name="GridCell125" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 80 )
+
+[node name="GridCell126" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 80 )
+
+[node name="GridCell127" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 80 )
+
+[node name="GridCell128" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 80 )
+
+[node name="GridCell129" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 80 )
+
+[node name="GridCell130" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 80 )
+
+[node name="GridCell131" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 80 )
+
+[node name="GridCell132" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 80 )
+
+[node name="GridCell133" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 80 )
+
+[node name="GridCell134" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 80 )
+
+[node name="GridCell135" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 80 )
+
+[node name="GridCell136" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 80 )
+
+[node name="GridCell137" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 80 )
+
+[node name="GridCell138" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 80 )
+
+[node name="GridCell139" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 80 )
+
+[node name="GridCell140" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 80 )
+
+[node name="GridCell141" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 80 )
+
+[node name="GridCell142" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 80 )
+
+[node name="GridCell143" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 80 )
+
+[node name="GridCell144" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 80 )
+
+[node name="GridCell145" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 96 )
+
+[node name="GridCell146" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 96 )
+
+[node name="GridCell147" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+
+[node name="GridCell148" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 96 )
+
+[node name="GridCell149" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 96 )
+
+[node name="GridCell150" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 96 )
+
+[node name="GridCell151" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 96 )
+
+[node name="GridCell152" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 96 )
+
+[node name="GridCell153" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 96 )
+
+[node name="GridCell154" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 96 )
+
+[node name="GridCell155" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+
+[node name="GridCell156" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 96 )
+
+[node name="GridCell157" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 96 )
+
+[node name="GridCell158" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 96 )
+
+[node name="GridCell159" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 96 )
+
+[node name="GridCell160" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 96 )
+
+[node name="GridCell161" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 96 )
+
+[node name="GridCell162" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 96 )
+
+[node name="GridCell163" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 96 )
+
+[node name="GridCell164" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 96 )
+
+[node name="GridCell165" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 96 )
+
+[node name="GridCell166" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 96 )
+
+[node name="GridCell167" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 96 )
+
+[node name="GridCell168" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 96 )
+
+[node name="GridCell169" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 112 )
+
+[node name="GridCell170" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 112 )
+
+[node name="GridCell171" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 112 )
+
+[node name="GridCell172" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 112 )
+
+[node name="GridCell173" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 112 )
+
+[node name="GridCell174" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 112 )
+
+[node name="GridCell175" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 112 )
+
+[node name="GridCell176" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 112 )
+
+[node name="GridCell177" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 112 )
+
+[node name="GridCell178" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 112 )
+
+[node name="GridCell179" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 112 )
+
+[node name="GridCell180" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 112 )
+
+[node name="GridCell181" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 112 )
+
+[node name="GridCell182" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 112 )
+
+[node name="GridCell183" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 112 )
+
+[node name="GridCell184" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 112 )
+
+[node name="GridCell185" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 112 )
+
+[node name="GridCell186" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 112 )
+
+[node name="GridCell187" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 112 )
+
+[node name="GridCell188" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 112 )
+
+[node name="GridCell189" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 112 )
+
+[node name="GridCell190" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 112 )
+
+[node name="GridCell191" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 112 )
+
+[node name="GridCell192" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 112 )
+
+[node name="GridCell193" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 128 )
+
+[node name="GridCell194" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 128 )
+
+[node name="GridCell195" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 128 )
+
+[node name="GridCell196" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 128 )
+
+[node name="GridCell197" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 128 )
+
+[node name="GridCell198" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 128 )
+
+[node name="GridCell199" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 128 )
+
+[node name="GridCell200" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 128 )
+
+[node name="GridCell201" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 128 )
+
+[node name="GridCell202" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 128 )
+
+[node name="GridCell203" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 128 )
+
+[node name="GridCell204" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 128 )
+
+[node name="GridCell205" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 128 )
+
+[node name="GridCell206" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 128 )
+
+[node name="GridCell207" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 128 )
+
+[node name="GridCell208" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 128 )
+
+[node name="GridCell209" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 128 )
+
+[node name="GridCell210" parent="." instance=ExtResource( 1 )]
+position = Vector2( 272, 128 )
+
+[node name="GridCell211" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 128 )
+
+[node name="GridCell212" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 128 )
+
+[node name="GridCell213" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 128 )
+
+[node name="GridCell214" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 128 )
+
+[node name="GridCell215" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 128 )
+
+[node name="GridCell216" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368, 128 )
