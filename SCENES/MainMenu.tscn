@@ -1,3 +1,8 @@
 [gd_scene format=2]
 
 [node name="MainMenu" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.321569, 0.247059, 0.196078, 1 )
