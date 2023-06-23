@@ -1,0 +1,3468 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://SCENES/GridCell.tscn" type="PackedScene" id=1]
+
+[node name="Grid" type="Node2D"]
+
+[node name="Chunk" type="Node2D" parent="."]
+
+[node name="GridCell" parent="Chunk" instance=ExtResource( 1 )]
+
+[node name="GridCell2" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 0 )
+
+[node name="GridCell3" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 0 )
+
+[node name="GridCell4" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 0 )
+
+[node name="GridCell5" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 0 )
+
+[node name="GridCell6" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 0 )
+
+[node name="GridCell7" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 0 )
+
+[node name="GridCell8" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 0 )
+
+[node name="GridCell9" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 0 )
+
+[node name="GridCell10" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 0 )
+
+[node name="GridCell11" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 0 )
+
+[node name="GridCell12" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 0 )
+
+[node name="GridCell13" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 0 )
+
+[node name="GridCell14" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 0 )
+
+[node name="GridCell15" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 0 )
+
+[node name="GridCell16" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 0 )
+
+[node name="GridCell17" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 0 )
+
+[node name="GridCell18" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 0 )
+
+[node name="GridCell19" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 0 )
+
+[node name="GridCell20" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 0 )
+
+[node name="GridCell21" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 0 )
+
+[node name="GridCell22" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 0 )
+
+[node name="GridCell23" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 0 )
+
+[node name="GridCell24" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 0 )
+
+[node name="GridCell25" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 16 )
+
+[node name="GridCell26" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 16 )
+
+[node name="GridCell27" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 16 )
+
+[node name="GridCell28" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 16 )
+
+[node name="GridCell29" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 16 )
+
+[node name="GridCell30" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 16 )
+
+[node name="GridCell31" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 16 )
+
+[node name="GridCell32" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 16 )
+
+[node name="GridCell33" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 16 )
+
+[node name="GridCell34" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 16 )
+
+[node name="GridCell35" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 16 )
+
+[node name="GridCell36" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 16 )
+
+[node name="GridCell37" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 16 )
+
+[node name="GridCell38" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 16 )
+
+[node name="GridCell39" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 16 )
+
+[node name="GridCell40" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 16 )
+
+[node name="GridCell41" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 16 )
+
+[node name="GridCell42" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 16 )
+
+[node name="GridCell43" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 16 )
+
+[node name="GridCell44" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 16 )
+
+[node name="GridCell45" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 16 )
+
+[node name="GridCell46" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 16 )
+
+[node name="GridCell47" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 16 )
+
+[node name="GridCell48" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 16 )
+
+[node name="GridCell49" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 32 )
+
+[node name="GridCell50" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 32 )
+
+[node name="GridCell51" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 32 )
+
+[node name="GridCell52" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 32 )
+
+[node name="GridCell53" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 32 )
+
+[node name="GridCell54" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 32 )
+
+[node name="GridCell55" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 32 )
+
+[node name="GridCell56" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 32 )
+
+[node name="GridCell57" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 32 )
+
+[node name="GridCell58" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 32 )
+
+[node name="GridCell59" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 32 )
+
+[node name="GridCell60" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 32 )
+
+[node name="GridCell61" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 32 )
+
+[node name="GridCell62" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 32 )
+
+[node name="GridCell63" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 32 )
+
+[node name="GridCell64" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 32 )
+
+[node name="GridCell65" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 32 )
+
+[node name="GridCell66" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 32 )
+
+[node name="GridCell67" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 32 )
+
+[node name="GridCell68" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 32 )
+
+[node name="GridCell69" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 32 )
+
+[node name="GridCell70" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 32 )
+
+[node name="GridCell71" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 32 )
+
+[node name="GridCell72" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 32 )
+
+[node name="GridCell73" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 48 )
+
+[node name="GridCell74" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 48 )
+
+[node name="GridCell75" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 48 )
+
+[node name="GridCell76" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 48 )
+
+[node name="GridCell77" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 48 )
+
+[node name="GridCell78" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 48 )
+
+[node name="GridCell79" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 48 )
+
+[node name="GridCell80" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 48 )
+
+[node name="GridCell81" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 48 )
+
+[node name="GridCell82" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 48 )
+
+[node name="GridCell83" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 48 )
+
+[node name="GridCell84" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 48 )
+
+[node name="GridCell85" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 48 )
+
+[node name="GridCell86" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 48 )
+
+[node name="GridCell87" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 48 )
+
+[node name="GridCell88" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 48 )
+
+[node name="GridCell89" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 48 )
+
+[node name="GridCell90" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 48 )
+
+[node name="GridCell91" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 48 )
+
+[node name="GridCell92" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 48 )
+
+[node name="GridCell93" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 48 )
+
+[node name="GridCell94" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 48 )
+
+[node name="GridCell95" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 48 )
+
+[node name="GridCell96" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 48 )
+
+[node name="GridCell97" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 64 )
+
+[node name="GridCell98" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 64 )
+
+[node name="GridCell99" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 64 )
+
+[node name="GridCell100" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 64 )
+
+[node name="GridCell101" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 64 )
+
+[node name="GridCell102" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 64 )
+
+[node name="GridCell103" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 64 )
+
+[node name="GridCell104" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 64 )
+
+[node name="GridCell105" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 64 )
+
+[node name="GridCell106" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 64 )
+
+[node name="GridCell107" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 64 )
+
+[node name="GridCell108" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 64 )
+
+[node name="GridCell109" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 64 )
+
+[node name="GridCell110" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 64 )
+
+[node name="GridCell111" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 64 )
+
+[node name="GridCell112" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 64 )
+
+[node name="GridCell113" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 64 )
+
+[node name="GridCell114" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 64 )
+
+[node name="GridCell115" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 64 )
+
+[node name="GridCell116" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 64 )
+
+[node name="GridCell117" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 64 )
+
+[node name="GridCell118" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 64 )
+
+[node name="GridCell119" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 64 )
+
+[node name="GridCell120" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 64 )
+
+[node name="GridCell121" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 80 )
+
+[node name="GridCell122" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 80 )
+
+[node name="GridCell123" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 80 )
+
+[node name="GridCell124" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 80 )
+
+[node name="GridCell125" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 80 )
+
+[node name="GridCell126" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 80 )
+
+[node name="GridCell127" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 80 )
+
+[node name="GridCell128" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 80 )
+
+[node name="GridCell129" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 80 )
+
+[node name="GridCell130" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 80 )
+
+[node name="GridCell131" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 80 )
+
+[node name="GridCell132" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 80 )
+
+[node name="GridCell133" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 80 )
+
+[node name="GridCell134" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 80 )
+
+[node name="GridCell135" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 80 )
+
+[node name="GridCell136" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 80 )
+
+[node name="GridCell137" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 80 )
+
+[node name="GridCell138" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 80 )
+
+[node name="GridCell139" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 80 )
+
+[node name="GridCell140" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 80 )
+
+[node name="GridCell141" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 80 )
+
+[node name="GridCell142" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 80 )
+
+[node name="GridCell143" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 80 )
+
+[node name="GridCell144" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 80 )
+
+[node name="GridCell145" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 96 )
+
+[node name="GridCell146" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 96 )
+
+[node name="GridCell147" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+
+[node name="GridCell148" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 96 )
+
+[node name="GridCell149" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 96 )
+
+[node name="GridCell150" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 96 )
+
+[node name="GridCell151" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 96 )
+
+[node name="GridCell152" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 96 )
+
+[node name="GridCell153" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 96 )
+
+[node name="GridCell154" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 96 )
+
+[node name="GridCell155" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+
+[node name="GridCell156" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 96 )
+
+[node name="GridCell157" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 96 )
+
+[node name="GridCell158" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 96 )
+
+[node name="GridCell159" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 96 )
+
+[node name="GridCell160" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 96 )
+
+[node name="GridCell161" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 96 )
+
+[node name="GridCell162" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 96 )
+
+[node name="GridCell163" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 96 )
+
+[node name="GridCell164" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 96 )
+
+[node name="GridCell165" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 96 )
+
+[node name="GridCell166" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 96 )
+
+[node name="GridCell167" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 96 )
+
+[node name="GridCell168" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 96 )
+
+[node name="GridCell169" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 112 )
+
+[node name="GridCell170" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 112 )
+
+[node name="GridCell171" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 112 )
+
+[node name="GridCell172" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 112 )
+
+[node name="GridCell173" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 112 )
+
+[node name="GridCell174" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 112 )
+
+[node name="GridCell175" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 112 )
+
+[node name="GridCell176" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 112 )
+
+[node name="GridCell177" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 112 )
+
+[node name="GridCell178" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 112 )
+
+[node name="GridCell179" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 112 )
+
+[node name="GridCell180" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 112 )
+
+[node name="GridCell181" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 112 )
+
+[node name="GridCell182" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 112 )
+
+[node name="GridCell183" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 112 )
+
+[node name="GridCell184" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 112 )
+
+[node name="GridCell185" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 112 )
+
+[node name="GridCell186" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 112 )
+
+[node name="GridCell187" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 112 )
+
+[node name="GridCell188" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 112 )
+
+[node name="GridCell189" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 112 )
+
+[node name="GridCell190" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 112 )
+
+[node name="GridCell191" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 112 )
+
+[node name="GridCell192" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 112 )
+
+[node name="GridCell193" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 128 )
+
+[node name="GridCell194" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 128 )
+
+[node name="GridCell195" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 128 )
+
+[node name="GridCell196" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 128 )
+
+[node name="GridCell197" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 128 )
+
+[node name="GridCell198" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 128 )
+
+[node name="GridCell199" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 128 )
+
+[node name="GridCell200" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 128 )
+
+[node name="GridCell201" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 128 )
+
+[node name="GridCell202" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 128 )
+
+[node name="GridCell203" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 128 )
+
+[node name="GridCell204" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 128 )
+
+[node name="GridCell205" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 128 )
+
+[node name="GridCell206" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 128 )
+
+[node name="GridCell207" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 128 )
+
+[node name="GridCell208" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 128 )
+
+[node name="GridCell209" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 128 )
+
+[node name="GridCell210" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 128 )
+
+[node name="GridCell211" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 128 )
+
+[node name="GridCell212" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 128 )
+
+[node name="GridCell213" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 128 )
+
+[node name="GridCell214" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 128 )
+
+[node name="GridCell215" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 128 )
+
+[node name="GridCell216" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 128 )
+
+[node name="GridCell217" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 144 )
+
+[node name="GridCell218" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 144 )
+
+[node name="GridCell219" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 144 )
+
+[node name="GridCell220" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 144 )
+
+[node name="GridCell221" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 144 )
+
+[node name="GridCell222" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 144 )
+
+[node name="GridCell223" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 144 )
+
+[node name="GridCell224" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 144 )
+
+[node name="GridCell225" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 144 )
+
+[node name="GridCell226" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 144 )
+
+[node name="GridCell227" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 144 )
+
+[node name="GridCell228" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 144 )
+
+[node name="GridCell229" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 144 )
+
+[node name="GridCell230" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 144 )
+
+[node name="GridCell231" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 144 )
+
+[node name="GridCell232" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 144 )
+
+[node name="GridCell233" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 144 )
+
+[node name="GridCell234" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 144 )
+
+[node name="GridCell235" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 144 )
+
+[node name="GridCell236" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 144 )
+
+[node name="GridCell237" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 144 )
+
+[node name="GridCell238" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 144 )
+
+[node name="GridCell239" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 144 )
+
+[node name="GridCell240" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 144 )
+
+[node name="GridCell241" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 160 )
+
+[node name="GridCell242" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 160 )
+
+[node name="GridCell243" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 160 )
+
+[node name="GridCell244" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 160 )
+
+[node name="GridCell245" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 160 )
+
+[node name="GridCell246" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 160 )
+
+[node name="GridCell247" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 160 )
+
+[node name="GridCell248" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 160 )
+
+[node name="GridCell249" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 160 )
+
+[node name="GridCell250" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 160 )
+
+[node name="GridCell251" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 160 )
+
+[node name="GridCell252" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 160 )
+
+[node name="GridCell253" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 160 )
+
+[node name="GridCell254" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 160 )
+
+[node name="GridCell255" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 160 )
+
+[node name="GridCell256" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 160 )
+
+[node name="GridCell257" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 160 )
+
+[node name="GridCell258" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 160 )
+
+[node name="GridCell259" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 160 )
+
+[node name="GridCell260" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 160 )
+
+[node name="GridCell261" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 160 )
+
+[node name="GridCell262" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 160 )
+
+[node name="GridCell263" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 160 )
+
+[node name="GridCell264" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 160 )
+
+[node name="GridCell265" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 0, 176 )
+
+[node name="GridCell266" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 16, 176 )
+
+[node name="GridCell267" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 32, 176 )
+
+[node name="GridCell268" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 48, 176 )
+
+[node name="GridCell269" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 64, 176 )
+
+[node name="GridCell270" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 80, 176 )
+
+[node name="GridCell271" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 96, 176 )
+
+[node name="GridCell272" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 112, 176 )
+
+[node name="GridCell273" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 128, 176 )
+
+[node name="GridCell274" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 144, 176 )
+
+[node name="GridCell275" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 160, 176 )
+
+[node name="GridCell276" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 176, 176 )
+
+[node name="GridCell277" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 192, 176 )
+
+[node name="GridCell278" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 208, 176 )
+
+[node name="GridCell279" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 224, 176 )
+
+[node name="GridCell280" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 240, 176 )
+
+[node name="GridCell281" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 256, 176 )
+
+[node name="GridCell282" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 272, 176 )
+
+[node name="GridCell283" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 288, 176 )
+
+[node name="GridCell284" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 304, 176 )
+
+[node name="GridCell285" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 320, 176 )
+
+[node name="GridCell286" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 336, 176 )
+
+[node name="GridCell287" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 352, 176 )
+
+[node name="GridCell288" parent="Chunk" instance=ExtResource( 1 )]
+position = Vector2( 368, 176 )
+
+[node name="Chunk2" type="Node2D" parent="."]
+position = Vector2( 0, 192 )
+
+[node name="GridCell" parent="Chunk2" instance=ExtResource( 1 )]
+
+[node name="GridCell2" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 0 )
+
+[node name="GridCell3" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 0 )
+
+[node name="GridCell4" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 0 )
+
+[node name="GridCell5" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 0 )
+
+[node name="GridCell6" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 0 )
+
+[node name="GridCell7" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 0 )
+
+[node name="GridCell8" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 0 )
+
+[node name="GridCell9" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 0 )
+
+[node name="GridCell10" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 0 )
+
+[node name="GridCell11" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 0 )
+
+[node name="GridCell12" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 0 )
+
+[node name="GridCell13" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 0 )
+
+[node name="GridCell14" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 0 )
+
+[node name="GridCell15" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 0 )
+
+[node name="GridCell16" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 0 )
+
+[node name="GridCell17" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 0 )
+
+[node name="GridCell18" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 0 )
+
+[node name="GridCell19" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 0 )
+
+[node name="GridCell20" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 0 )
+
+[node name="GridCell21" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 0 )
+
+[node name="GridCell22" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 0 )
+
+[node name="GridCell23" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 0 )
+
+[node name="GridCell24" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 0 )
+
+[node name="GridCell25" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 16 )
+
+[node name="GridCell26" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 16 )
+
+[node name="GridCell27" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 16 )
+
+[node name="GridCell28" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 16 )
+
+[node name="GridCell29" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 16 )
+
+[node name="GridCell30" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 16 )
+
+[node name="GridCell31" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 16 )
+
+[node name="GridCell32" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 16 )
+
+[node name="GridCell33" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 16 )
+
+[node name="GridCell34" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 16 )
+
+[node name="GridCell35" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 16 )
+
+[node name="GridCell36" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 16 )
+
+[node name="GridCell37" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 16 )
+
+[node name="GridCell38" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 16 )
+
+[node name="GridCell39" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 16 )
+
+[node name="GridCell40" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 16 )
+
+[node name="GridCell41" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 16 )
+
+[node name="GridCell42" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 16 )
+
+[node name="GridCell43" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 16 )
+
+[node name="GridCell44" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 16 )
+
+[node name="GridCell45" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 16 )
+
+[node name="GridCell46" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 16 )
+
+[node name="GridCell47" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 16 )
+
+[node name="GridCell48" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 16 )
+
+[node name="GridCell49" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 32 )
+
+[node name="GridCell50" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 32 )
+
+[node name="GridCell51" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 32 )
+
+[node name="GridCell52" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 32 )
+
+[node name="GridCell53" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 32 )
+
+[node name="GridCell54" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 32 )
+
+[node name="GridCell55" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 32 )
+
+[node name="GridCell56" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 32 )
+
+[node name="GridCell57" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 32 )
+
+[node name="GridCell58" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 32 )
+
+[node name="GridCell59" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 32 )
+
+[node name="GridCell60" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 32 )
+
+[node name="GridCell61" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 32 )
+
+[node name="GridCell62" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 32 )
+
+[node name="GridCell63" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 32 )
+
+[node name="GridCell64" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 32 )
+
+[node name="GridCell65" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 32 )
+
+[node name="GridCell66" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 32 )
+
+[node name="GridCell67" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 32 )
+
+[node name="GridCell68" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 32 )
+
+[node name="GridCell69" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 32 )
+
+[node name="GridCell70" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 32 )
+
+[node name="GridCell71" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 32 )
+
+[node name="GridCell72" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 32 )
+
+[node name="GridCell73" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 48 )
+
+[node name="GridCell74" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 48 )
+
+[node name="GridCell75" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 48 )
+
+[node name="GridCell76" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 48 )
+
+[node name="GridCell77" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 48 )
+
+[node name="GridCell78" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 48 )
+
+[node name="GridCell79" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 48 )
+
+[node name="GridCell80" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 48 )
+
+[node name="GridCell81" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 48 )
+
+[node name="GridCell82" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 48 )
+
+[node name="GridCell83" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 48 )
+
+[node name="GridCell84" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 48 )
+
+[node name="GridCell85" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 48 )
+
+[node name="GridCell86" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 48 )
+
+[node name="GridCell87" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 48 )
+
+[node name="GridCell88" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 48 )
+
+[node name="GridCell89" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 48 )
+
+[node name="GridCell90" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 48 )
+
+[node name="GridCell91" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 48 )
+
+[node name="GridCell92" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 48 )
+
+[node name="GridCell93" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 48 )
+
+[node name="GridCell94" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 48 )
+
+[node name="GridCell95" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 48 )
+
+[node name="GridCell96" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 48 )
+
+[node name="GridCell97" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 64 )
+
+[node name="GridCell98" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 64 )
+
+[node name="GridCell99" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 64 )
+
+[node name="GridCell100" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 64 )
+
+[node name="GridCell101" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 64 )
+
+[node name="GridCell102" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 64 )
+
+[node name="GridCell103" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 64 )
+
+[node name="GridCell104" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 64 )
+
+[node name="GridCell105" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 64 )
+
+[node name="GridCell106" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 64 )
+
+[node name="GridCell107" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 64 )
+
+[node name="GridCell108" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 64 )
+
+[node name="GridCell109" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 64 )
+
+[node name="GridCell110" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 64 )
+
+[node name="GridCell111" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 64 )
+
+[node name="GridCell112" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 64 )
+
+[node name="GridCell113" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 64 )
+
+[node name="GridCell114" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 64 )
+
+[node name="GridCell115" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 64 )
+
+[node name="GridCell116" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 64 )
+
+[node name="GridCell117" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 64 )
+
+[node name="GridCell118" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 64 )
+
+[node name="GridCell119" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 64 )
+
+[node name="GridCell120" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 64 )
+
+[node name="GridCell121" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 80 )
+
+[node name="GridCell122" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 80 )
+
+[node name="GridCell123" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 80 )
+
+[node name="GridCell124" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 80 )
+
+[node name="GridCell125" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 80 )
+
+[node name="GridCell126" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 80 )
+
+[node name="GridCell127" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 80 )
+
+[node name="GridCell128" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 80 )
+
+[node name="GridCell129" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 80 )
+
+[node name="GridCell130" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 80 )
+
+[node name="GridCell131" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 80 )
+
+[node name="GridCell132" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 80 )
+
+[node name="GridCell133" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 80 )
+
+[node name="GridCell134" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 80 )
+
+[node name="GridCell135" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 80 )
+
+[node name="GridCell136" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 80 )
+
+[node name="GridCell137" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 80 )
+
+[node name="GridCell138" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 80 )
+
+[node name="GridCell139" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 80 )
+
+[node name="GridCell140" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 80 )
+
+[node name="GridCell141" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 80 )
+
+[node name="GridCell142" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 80 )
+
+[node name="GridCell143" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 80 )
+
+[node name="GridCell144" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 80 )
+
+[node name="GridCell145" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 96 )
+
+[node name="GridCell146" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 96 )
+
+[node name="GridCell147" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+
+[node name="GridCell148" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 96 )
+
+[node name="GridCell149" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 96 )
+
+[node name="GridCell150" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 96 )
+
+[node name="GridCell151" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 96 )
+
+[node name="GridCell152" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 96 )
+
+[node name="GridCell153" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 96 )
+
+[node name="GridCell154" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 96 )
+
+[node name="GridCell155" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+
+[node name="GridCell156" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 96 )
+
+[node name="GridCell157" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 96 )
+
+[node name="GridCell158" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 96 )
+
+[node name="GridCell159" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 96 )
+
+[node name="GridCell160" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 96 )
+
+[node name="GridCell161" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 96 )
+
+[node name="GridCell162" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 96 )
+
+[node name="GridCell163" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 96 )
+
+[node name="GridCell164" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 96 )
+
+[node name="GridCell165" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 96 )
+
+[node name="GridCell166" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 96 )
+
+[node name="GridCell167" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 96 )
+
+[node name="GridCell168" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 96 )
+
+[node name="GridCell169" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 112 )
+
+[node name="GridCell170" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 112 )
+
+[node name="GridCell171" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 112 )
+
+[node name="GridCell172" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 112 )
+
+[node name="GridCell173" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 112 )
+
+[node name="GridCell174" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 112 )
+
+[node name="GridCell175" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 112 )
+
+[node name="GridCell176" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 112 )
+
+[node name="GridCell177" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 112 )
+
+[node name="GridCell178" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 112 )
+
+[node name="GridCell179" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 112 )
+
+[node name="GridCell180" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 112 )
+
+[node name="GridCell181" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 112 )
+
+[node name="GridCell182" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 112 )
+
+[node name="GridCell183" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 112 )
+
+[node name="GridCell184" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 112 )
+
+[node name="GridCell185" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 112 )
+
+[node name="GridCell186" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 112 )
+
+[node name="GridCell187" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 112 )
+
+[node name="GridCell188" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 112 )
+
+[node name="GridCell189" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 112 )
+
+[node name="GridCell190" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 112 )
+
+[node name="GridCell191" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 112 )
+
+[node name="GridCell192" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 112 )
+
+[node name="GridCell193" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 128 )
+
+[node name="GridCell194" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 128 )
+
+[node name="GridCell195" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 128 )
+
+[node name="GridCell196" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 128 )
+
+[node name="GridCell197" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 128 )
+
+[node name="GridCell198" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 128 )
+
+[node name="GridCell199" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 128 )
+
+[node name="GridCell200" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 128 )
+
+[node name="GridCell201" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 128 )
+
+[node name="GridCell202" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 128 )
+
+[node name="GridCell203" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 128 )
+
+[node name="GridCell204" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 128 )
+
+[node name="GridCell205" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 128 )
+
+[node name="GridCell206" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 128 )
+
+[node name="GridCell207" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 128 )
+
+[node name="GridCell208" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 128 )
+
+[node name="GridCell209" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 128 )
+
+[node name="GridCell210" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 128 )
+
+[node name="GridCell211" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 128 )
+
+[node name="GridCell212" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 128 )
+
+[node name="GridCell213" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 128 )
+
+[node name="GridCell214" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 128 )
+
+[node name="GridCell215" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 128 )
+
+[node name="GridCell216" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 128 )
+
+[node name="GridCell217" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 144 )
+
+[node name="GridCell218" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 144 )
+
+[node name="GridCell219" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 144 )
+
+[node name="GridCell220" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 144 )
+
+[node name="GridCell221" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 144 )
+
+[node name="GridCell222" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 144 )
+
+[node name="GridCell223" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 144 )
+
+[node name="GridCell224" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 144 )
+
+[node name="GridCell225" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 144 )
+
+[node name="GridCell226" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 144 )
+
+[node name="GridCell227" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 144 )
+
+[node name="GridCell228" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 144 )
+
+[node name="GridCell229" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 144 )
+
+[node name="GridCell230" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 144 )
+
+[node name="GridCell231" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 144 )
+
+[node name="GridCell232" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 144 )
+
+[node name="GridCell233" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 144 )
+
+[node name="GridCell234" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 144 )
+
+[node name="GridCell235" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 144 )
+
+[node name="GridCell236" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 144 )
+
+[node name="GridCell237" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 144 )
+
+[node name="GridCell238" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 144 )
+
+[node name="GridCell239" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 144 )
+
+[node name="GridCell240" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 144 )
+
+[node name="GridCell241" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 160 )
+
+[node name="GridCell242" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 160 )
+
+[node name="GridCell243" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 160 )
+
+[node name="GridCell244" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 160 )
+
+[node name="GridCell245" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 160 )
+
+[node name="GridCell246" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 160 )
+
+[node name="GridCell247" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 160 )
+
+[node name="GridCell248" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 160 )
+
+[node name="GridCell249" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 160 )
+
+[node name="GridCell250" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 160 )
+
+[node name="GridCell251" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 160 )
+
+[node name="GridCell252" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 160 )
+
+[node name="GridCell253" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 160 )
+
+[node name="GridCell254" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 160 )
+
+[node name="GridCell255" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 160 )
+
+[node name="GridCell256" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 160 )
+
+[node name="GridCell257" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 160 )
+
+[node name="GridCell258" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 160 )
+
+[node name="GridCell259" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 160 )
+
+[node name="GridCell260" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 160 )
+
+[node name="GridCell261" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 160 )
+
+[node name="GridCell262" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 160 )
+
+[node name="GridCell263" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 160 )
+
+[node name="GridCell264" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 160 )
+
+[node name="GridCell265" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 0, 176 )
+
+[node name="GridCell266" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 16, 176 )
+
+[node name="GridCell267" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 32, 176 )
+
+[node name="GridCell268" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 48, 176 )
+
+[node name="GridCell269" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 64, 176 )
+
+[node name="GridCell270" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 80, 176 )
+
+[node name="GridCell271" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 96, 176 )
+
+[node name="GridCell272" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 112, 176 )
+
+[node name="GridCell273" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 128, 176 )
+
+[node name="GridCell274" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 144, 176 )
+
+[node name="GridCell275" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 160, 176 )
+
+[node name="GridCell276" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 176, 176 )
+
+[node name="GridCell277" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 192, 176 )
+
+[node name="GridCell278" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 208, 176 )
+
+[node name="GridCell279" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 224, 176 )
+
+[node name="GridCell280" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 240, 176 )
+
+[node name="GridCell281" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 256, 176 )
+
+[node name="GridCell282" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 272, 176 )
+
+[node name="GridCell283" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 288, 176 )
+
+[node name="GridCell284" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 304, 176 )
+
+[node name="GridCell285" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 320, 176 )
+
+[node name="GridCell286" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 336, 176 )
+
+[node name="GridCell287" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 352, 176 )
+
+[node name="GridCell288" parent="Chunk2" instance=ExtResource( 1 )]
+position = Vector2( 368, 176 )
+
+[node name="Chunk3" type="Node2D" parent="."]
+position = Vector2( 384, 0 )
+
+[node name="GridCell" parent="Chunk3" instance=ExtResource( 1 )]
+
+[node name="GridCell2" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 0 )
+
+[node name="GridCell3" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 0 )
+
+[node name="GridCell4" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 0 )
+
+[node name="GridCell5" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 0 )
+
+[node name="GridCell6" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 0 )
+
+[node name="GridCell7" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 0 )
+
+[node name="GridCell8" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 0 )
+
+[node name="GridCell9" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 0 )
+
+[node name="GridCell10" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 0 )
+
+[node name="GridCell11" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 0 )
+
+[node name="GridCell12" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 0 )
+
+[node name="GridCell13" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 0 )
+
+[node name="GridCell14" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 0 )
+
+[node name="GridCell15" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 0 )
+
+[node name="GridCell16" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 0 )
+
+[node name="GridCell17" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 0 )
+
+[node name="GridCell18" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 0 )
+
+[node name="GridCell19" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 0 )
+
+[node name="GridCell20" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 0 )
+
+[node name="GridCell21" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 0 )
+
+[node name="GridCell22" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 0 )
+
+[node name="GridCell23" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 0 )
+
+[node name="GridCell24" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 0 )
+
+[node name="GridCell25" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 16 )
+
+[node name="GridCell26" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 16 )
+
+[node name="GridCell27" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 16 )
+
+[node name="GridCell28" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 16 )
+
+[node name="GridCell29" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 16 )
+
+[node name="GridCell30" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 16 )
+
+[node name="GridCell31" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 16 )
+
+[node name="GridCell32" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 16 )
+
+[node name="GridCell33" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 16 )
+
+[node name="GridCell34" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 16 )
+
+[node name="GridCell35" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 16 )
+
+[node name="GridCell36" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 16 )
+
+[node name="GridCell37" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 16 )
+
+[node name="GridCell38" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 16 )
+
+[node name="GridCell39" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 16 )
+
+[node name="GridCell40" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 16 )
+
+[node name="GridCell41" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 16 )
+
+[node name="GridCell42" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 16 )
+
+[node name="GridCell43" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 16 )
+
+[node name="GridCell44" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 16 )
+
+[node name="GridCell45" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 16 )
+
+[node name="GridCell46" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 16 )
+
+[node name="GridCell47" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 16 )
+
+[node name="GridCell48" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 16 )
+
+[node name="GridCell49" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 32 )
+
+[node name="GridCell50" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 32 )
+
+[node name="GridCell51" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 32 )
+
+[node name="GridCell52" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 32 )
+
+[node name="GridCell53" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 32 )
+
+[node name="GridCell54" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 32 )
+
+[node name="GridCell55" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 32 )
+
+[node name="GridCell56" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 32 )
+
+[node name="GridCell57" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 32 )
+
+[node name="GridCell58" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 32 )
+
+[node name="GridCell59" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 32 )
+
+[node name="GridCell60" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 32 )
+
+[node name="GridCell61" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 32 )
+
+[node name="GridCell62" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 32 )
+
+[node name="GridCell63" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 32 )
+
+[node name="GridCell64" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 32 )
+
+[node name="GridCell65" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 32 )
+
+[node name="GridCell66" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 32 )
+
+[node name="GridCell67" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 32 )
+
+[node name="GridCell68" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 32 )
+
+[node name="GridCell69" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 32 )
+
+[node name="GridCell70" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 32 )
+
+[node name="GridCell71" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 32 )
+
+[node name="GridCell72" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 32 )
+
+[node name="GridCell73" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 48 )
+
+[node name="GridCell74" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 48 )
+
+[node name="GridCell75" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 48 )
+
+[node name="GridCell76" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 48 )
+
+[node name="GridCell77" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 48 )
+
+[node name="GridCell78" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 48 )
+
+[node name="GridCell79" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 48 )
+
+[node name="GridCell80" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 48 )
+
+[node name="GridCell81" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 48 )
+
+[node name="GridCell82" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 48 )
+
+[node name="GridCell83" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 48 )
+
+[node name="GridCell84" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 48 )
+
+[node name="GridCell85" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 48 )
+
+[node name="GridCell86" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 48 )
+
+[node name="GridCell87" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 48 )
+
+[node name="GridCell88" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 48 )
+
+[node name="GridCell89" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 48 )
+
+[node name="GridCell90" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 48 )
+
+[node name="GridCell91" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 48 )
+
+[node name="GridCell92" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 48 )
+
+[node name="GridCell93" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 48 )
+
+[node name="GridCell94" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 48 )
+
+[node name="GridCell95" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 48 )
+
+[node name="GridCell96" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 48 )
+
+[node name="GridCell97" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 64 )
+
+[node name="GridCell98" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 64 )
+
+[node name="GridCell99" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 64 )
+
+[node name="GridCell100" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 64 )
+
+[node name="GridCell101" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 64 )
+
+[node name="GridCell102" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 64 )
+
+[node name="GridCell103" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 64 )
+
+[node name="GridCell104" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 64 )
+
+[node name="GridCell105" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 64 )
+
+[node name="GridCell106" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 64 )
+
+[node name="GridCell107" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 64 )
+
+[node name="GridCell108" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 64 )
+
+[node name="GridCell109" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 64 )
+
+[node name="GridCell110" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 64 )
+
+[node name="GridCell111" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 64 )
+
+[node name="GridCell112" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 64 )
+
+[node name="GridCell113" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 64 )
+
+[node name="GridCell114" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 64 )
+
+[node name="GridCell115" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 64 )
+
+[node name="GridCell116" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 64 )
+
+[node name="GridCell117" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 64 )
+
+[node name="GridCell118" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 64 )
+
+[node name="GridCell119" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 64 )
+
+[node name="GridCell120" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 64 )
+
+[node name="GridCell121" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 80 )
+
+[node name="GridCell122" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 80 )
+
+[node name="GridCell123" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 80 )
+
+[node name="GridCell124" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 80 )
+
+[node name="GridCell125" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 80 )
+
+[node name="GridCell126" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 80 )
+
+[node name="GridCell127" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 80 )
+
+[node name="GridCell128" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 80 )
+
+[node name="GridCell129" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 80 )
+
+[node name="GridCell130" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 80 )
+
+[node name="GridCell131" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 80 )
+
+[node name="GridCell132" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 80 )
+
+[node name="GridCell133" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 80 )
+
+[node name="GridCell134" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 80 )
+
+[node name="GridCell135" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 80 )
+
+[node name="GridCell136" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 80 )
+
+[node name="GridCell137" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 80 )
+
+[node name="GridCell138" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 80 )
+
+[node name="GridCell139" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 80 )
+
+[node name="GridCell140" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 80 )
+
+[node name="GridCell141" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 80 )
+
+[node name="GridCell142" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 80 )
+
+[node name="GridCell143" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 80 )
+
+[node name="GridCell144" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 80 )
+
+[node name="GridCell145" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 96 )
+
+[node name="GridCell146" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 96 )
+
+[node name="GridCell147" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+
+[node name="GridCell148" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 96 )
+
+[node name="GridCell149" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 96 )
+
+[node name="GridCell150" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 96 )
+
+[node name="GridCell151" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 96 )
+
+[node name="GridCell152" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 96 )
+
+[node name="GridCell153" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 96 )
+
+[node name="GridCell154" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 96 )
+
+[node name="GridCell155" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+
+[node name="GridCell156" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 96 )
+
+[node name="GridCell157" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 96 )
+
+[node name="GridCell158" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 96 )
+
+[node name="GridCell159" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 96 )
+
+[node name="GridCell160" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 96 )
+
+[node name="GridCell161" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 96 )
+
+[node name="GridCell162" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 96 )
+
+[node name="GridCell163" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 96 )
+
+[node name="GridCell164" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 96 )
+
+[node name="GridCell165" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 96 )
+
+[node name="GridCell166" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 96 )
+
+[node name="GridCell167" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 96 )
+
+[node name="GridCell168" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 96 )
+
+[node name="GridCell169" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 112 )
+
+[node name="GridCell170" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 112 )
+
+[node name="GridCell171" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 112 )
+
+[node name="GridCell172" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 112 )
+
+[node name="GridCell173" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 112 )
+
+[node name="GridCell174" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 112 )
+
+[node name="GridCell175" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 112 )
+
+[node name="GridCell176" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 112 )
+
+[node name="GridCell177" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 112 )
+
+[node name="GridCell178" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 112 )
+
+[node name="GridCell179" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 112 )
+
+[node name="GridCell180" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 112 )
+
+[node name="GridCell181" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 112 )
+
+[node name="GridCell182" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 112 )
+
+[node name="GridCell183" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 112 )
+
+[node name="GridCell184" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 112 )
+
+[node name="GridCell185" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 112 )
+
+[node name="GridCell186" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 112 )
+
+[node name="GridCell187" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 112 )
+
+[node name="GridCell188" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 112 )
+
+[node name="GridCell189" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 112 )
+
+[node name="GridCell190" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 112 )
+
+[node name="GridCell191" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 112 )
+
+[node name="GridCell192" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 112 )
+
+[node name="GridCell193" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 128 )
+
+[node name="GridCell194" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 128 )
+
+[node name="GridCell195" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 128 )
+
+[node name="GridCell196" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 128 )
+
+[node name="GridCell197" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 128 )
+
+[node name="GridCell198" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 128 )
+
+[node name="GridCell199" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 128 )
+
+[node name="GridCell200" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 128 )
+
+[node name="GridCell201" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 128 )
+
+[node name="GridCell202" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 128 )
+
+[node name="GridCell203" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 128 )
+
+[node name="GridCell204" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 128 )
+
+[node name="GridCell205" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 128 )
+
+[node name="GridCell206" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 128 )
+
+[node name="GridCell207" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 128 )
+
+[node name="GridCell208" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 128 )
+
+[node name="GridCell209" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 128 )
+
+[node name="GridCell210" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 128 )
+
+[node name="GridCell211" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 128 )
+
+[node name="GridCell212" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 128 )
+
+[node name="GridCell213" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 128 )
+
+[node name="GridCell214" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 128 )
+
+[node name="GridCell215" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 128 )
+
+[node name="GridCell216" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 128 )
+
+[node name="GridCell217" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 144 )
+
+[node name="GridCell218" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 144 )
+
+[node name="GridCell219" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 144 )
+
+[node name="GridCell220" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 144 )
+
+[node name="GridCell221" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 144 )
+
+[node name="GridCell222" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 144 )
+
+[node name="GridCell223" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 144 )
+
+[node name="GridCell224" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 144 )
+
+[node name="GridCell225" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 144 )
+
+[node name="GridCell226" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 144 )
+
+[node name="GridCell227" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 144 )
+
+[node name="GridCell228" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 144 )
+
+[node name="GridCell229" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 144 )
+
+[node name="GridCell230" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 144 )
+
+[node name="GridCell231" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 144 )
+
+[node name="GridCell232" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 144 )
+
+[node name="GridCell233" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 144 )
+
+[node name="GridCell234" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 144 )
+
+[node name="GridCell235" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 144 )
+
+[node name="GridCell236" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 144 )
+
+[node name="GridCell237" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 144 )
+
+[node name="GridCell238" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 144 )
+
+[node name="GridCell239" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 144 )
+
+[node name="GridCell240" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 144 )
+
+[node name="GridCell241" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 160 )
+
+[node name="GridCell242" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 160 )
+
+[node name="GridCell243" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 160 )
+
+[node name="GridCell244" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 160 )
+
+[node name="GridCell245" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 160 )
+
+[node name="GridCell246" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 160 )
+
+[node name="GridCell247" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 160 )
+
+[node name="GridCell248" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 160 )
+
+[node name="GridCell249" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 160 )
+
+[node name="GridCell250" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 160 )
+
+[node name="GridCell251" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 160 )
+
+[node name="GridCell252" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 160 )
+
+[node name="GridCell253" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 160 )
+
+[node name="GridCell254" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 160 )
+
+[node name="GridCell255" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 160 )
+
+[node name="GridCell256" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 160 )
+
+[node name="GridCell257" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 160 )
+
+[node name="GridCell258" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 160 )
+
+[node name="GridCell259" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 160 )
+
+[node name="GridCell260" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 160 )
+
+[node name="GridCell261" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 160 )
+
+[node name="GridCell262" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 160 )
+
+[node name="GridCell263" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 160 )
+
+[node name="GridCell264" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 160 )
+
+[node name="GridCell265" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 0, 176 )
+
+[node name="GridCell266" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 16, 176 )
+
+[node name="GridCell267" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 32, 176 )
+
+[node name="GridCell268" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 48, 176 )
+
+[node name="GridCell269" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 64, 176 )
+
+[node name="GridCell270" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 80, 176 )
+
+[node name="GridCell271" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 96, 176 )
+
+[node name="GridCell272" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 112, 176 )
+
+[node name="GridCell273" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 128, 176 )
+
+[node name="GridCell274" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 144, 176 )
+
+[node name="GridCell275" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 160, 176 )
+
+[node name="GridCell276" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 176, 176 )
+
+[node name="GridCell277" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 192, 176 )
+
+[node name="GridCell278" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 208, 176 )
+
+[node name="GridCell279" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 224, 176 )
+
+[node name="GridCell280" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 240, 176 )
+
+[node name="GridCell281" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 256, 176 )
+
+[node name="GridCell282" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 272, 176 )
+
+[node name="GridCell283" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 288, 176 )
+
+[node name="GridCell284" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 304, 176 )
+
+[node name="GridCell285" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 320, 176 )
+
+[node name="GridCell286" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 336, 176 )
+
+[node name="GridCell287" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 352, 176 )
+
+[node name="GridCell288" parent="Chunk3" instance=ExtResource( 1 )]
+position = Vector2( 368, 176 )
+
+[node name="Chunk4" type="Node2D" parent="."]
+position = Vector2( 384, 192 )
+
+[node name="GridCell" parent="Chunk4" instance=ExtResource( 1 )]
+
+[node name="GridCell2" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 0 )
+
+[node name="GridCell3" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 0 )
+
+[node name="GridCell4" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 0 )
+
+[node name="GridCell5" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 0 )
+
+[node name="GridCell6" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 0 )
+
+[node name="GridCell7" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 0 )
+
+[node name="GridCell8" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 0 )
+
+[node name="GridCell9" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 0 )
+
+[node name="GridCell10" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 0 )
+
+[node name="GridCell11" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 0 )
+
+[node name="GridCell12" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 0 )
+
+[node name="GridCell13" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 0 )
+
+[node name="GridCell14" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 0 )
+
+[node name="GridCell15" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 0 )
+
+[node name="GridCell16" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 0 )
+
+[node name="GridCell17" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 0 )
+
+[node name="GridCell18" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 0 )
+
+[node name="GridCell19" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 0 )
+
+[node name="GridCell20" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 0 )
+
+[node name="GridCell21" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 0 )
+
+[node name="GridCell22" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 0 )
+
+[node name="GridCell23" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 0 )
+
+[node name="GridCell24" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 0 )
+
+[node name="GridCell25" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 16 )
+
+[node name="GridCell26" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 16 )
+
+[node name="GridCell27" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 16 )
+
+[node name="GridCell28" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 16 )
+
+[node name="GridCell29" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 16 )
+
+[node name="GridCell30" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 16 )
+
+[node name="GridCell31" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 16 )
+
+[node name="GridCell32" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 16 )
+
+[node name="GridCell33" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 16 )
+
+[node name="GridCell34" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 16 )
+
+[node name="GridCell35" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 16 )
+
+[node name="GridCell36" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 16 )
+
+[node name="GridCell37" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 16 )
+
+[node name="GridCell38" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 16 )
+
+[node name="GridCell39" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 16 )
+
+[node name="GridCell40" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 16 )
+
+[node name="GridCell41" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 16 )
+
+[node name="GridCell42" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 16 )
+
+[node name="GridCell43" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 16 )
+
+[node name="GridCell44" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 16 )
+
+[node name="GridCell45" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 16 )
+
+[node name="GridCell46" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 16 )
+
+[node name="GridCell47" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 16 )
+
+[node name="GridCell48" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 16 )
+
+[node name="GridCell49" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 32 )
+
+[node name="GridCell50" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 32 )
+
+[node name="GridCell51" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 32 )
+
+[node name="GridCell52" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 32 )
+
+[node name="GridCell53" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 32 )
+
+[node name="GridCell54" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 32 )
+
+[node name="GridCell55" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 32 )
+
+[node name="GridCell56" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 32 )
+
+[node name="GridCell57" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 32 )
+
+[node name="GridCell58" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 32 )
+
+[node name="GridCell59" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 32 )
+
+[node name="GridCell60" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 32 )
+
+[node name="GridCell61" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 32 )
+
+[node name="GridCell62" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 32 )
+
+[node name="GridCell63" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 32 )
+
+[node name="GridCell64" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 32 )
+
+[node name="GridCell65" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 32 )
+
+[node name="GridCell66" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 32 )
+
+[node name="GridCell67" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 32 )
+
+[node name="GridCell68" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 32 )
+
+[node name="GridCell69" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 32 )
+
+[node name="GridCell70" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 32 )
+
+[node name="GridCell71" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 32 )
+
+[node name="GridCell72" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 32 )
+
+[node name="GridCell73" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 48 )
+
+[node name="GridCell74" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 48 )
+
+[node name="GridCell75" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 48 )
+
+[node name="GridCell76" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 48 )
+
+[node name="GridCell77" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 48 )
+
+[node name="GridCell78" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 48 )
+
+[node name="GridCell79" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 48 )
+
+[node name="GridCell80" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 48 )
+
+[node name="GridCell81" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 48 )
+
+[node name="GridCell82" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 48 )
+
+[node name="GridCell83" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 48 )
+
+[node name="GridCell84" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 48 )
+
+[node name="GridCell85" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 48 )
+
+[node name="GridCell86" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 48 )
+
+[node name="GridCell87" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 48 )
+
+[node name="GridCell88" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 48 )
+
+[node name="GridCell89" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 48 )
+
+[node name="GridCell90" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 48 )
+
+[node name="GridCell91" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 48 )
+
+[node name="GridCell92" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 48 )
+
+[node name="GridCell93" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 48 )
+
+[node name="GridCell94" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 48 )
+
+[node name="GridCell95" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 48 )
+
+[node name="GridCell96" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 48 )
+
+[node name="GridCell97" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 64 )
+
+[node name="GridCell98" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 64 )
+
+[node name="GridCell99" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 64 )
+
+[node name="GridCell100" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 64 )
+
+[node name="GridCell101" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 64 )
+
+[node name="GridCell102" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 64 )
+
+[node name="GridCell103" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 64 )
+
+[node name="GridCell104" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 64 )
+
+[node name="GridCell105" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 64 )
+
+[node name="GridCell106" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 64 )
+
+[node name="GridCell107" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 64 )
+
+[node name="GridCell108" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 64 )
+
+[node name="GridCell109" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 64 )
+
+[node name="GridCell110" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 64 )
+
+[node name="GridCell111" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 64 )
+
+[node name="GridCell112" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 64 )
+
+[node name="GridCell113" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 64 )
+
+[node name="GridCell114" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 64 )
+
+[node name="GridCell115" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 64 )
+
+[node name="GridCell116" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 64 )
+
+[node name="GridCell117" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 64 )
+
+[node name="GridCell118" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 64 )
+
+[node name="GridCell119" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 64 )
+
+[node name="GridCell120" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 64 )
+
+[node name="GridCell121" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 80 )
+
+[node name="GridCell122" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 80 )
+
+[node name="GridCell123" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 80 )
+
+[node name="GridCell124" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 80 )
+
+[node name="GridCell125" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 80 )
+
+[node name="GridCell126" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 80 )
+
+[node name="GridCell127" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 80 )
+
+[node name="GridCell128" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 80 )
+
+[node name="GridCell129" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 80 )
+
+[node name="GridCell130" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 80 )
+
+[node name="GridCell131" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 80 )
+
+[node name="GridCell132" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 80 )
+
+[node name="GridCell133" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 80 )
+
+[node name="GridCell134" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 80 )
+
+[node name="GridCell135" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 80 )
+
+[node name="GridCell136" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 80 )
+
+[node name="GridCell137" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 80 )
+
+[node name="GridCell138" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 80 )
+
+[node name="GridCell139" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 80 )
+
+[node name="GridCell140" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 80 )
+
+[node name="GridCell141" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 80 )
+
+[node name="GridCell142" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 80 )
+
+[node name="GridCell143" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 80 )
+
+[node name="GridCell144" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 80 )
+
+[node name="GridCell145" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 96 )
+
+[node name="GridCell146" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 96 )
+
+[node name="GridCell147" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+
+[node name="GridCell148" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 96 )
+
+[node name="GridCell149" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 96 )
+
+[node name="GridCell150" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 96 )
+
+[node name="GridCell151" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 96 )
+
+[node name="GridCell152" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 96 )
+
+[node name="GridCell153" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 96 )
+
+[node name="GridCell154" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 96 )
+
+[node name="GridCell155" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+
+[node name="GridCell156" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 96 )
+
+[node name="GridCell157" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 96 )
+
+[node name="GridCell158" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 96 )
+
+[node name="GridCell159" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 96 )
+
+[node name="GridCell160" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 96 )
+
+[node name="GridCell161" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 96 )
+
+[node name="GridCell162" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 96 )
+
+[node name="GridCell163" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 96 )
+
+[node name="GridCell164" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 96 )
+
+[node name="GridCell165" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 96 )
+
+[node name="GridCell166" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 96 )
+
+[node name="GridCell167" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 96 )
+
+[node name="GridCell168" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 96 )
+
+[node name="GridCell169" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 112 )
+
+[node name="GridCell170" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 112 )
+
+[node name="GridCell171" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 112 )
+
+[node name="GridCell172" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 112 )
+
+[node name="GridCell173" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 112 )
+
+[node name="GridCell174" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 112 )
+
+[node name="GridCell175" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 112 )
+
+[node name="GridCell176" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 112 )
+
+[node name="GridCell177" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 112 )
+
+[node name="GridCell178" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 112 )
+
+[node name="GridCell179" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 112 )
+
+[node name="GridCell180" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 112 )
+
+[node name="GridCell181" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 112 )
+
+[node name="GridCell182" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 112 )
+
+[node name="GridCell183" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 112 )
+
+[node name="GridCell184" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 112 )
+
+[node name="GridCell185" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 112 )
+
+[node name="GridCell186" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 112 )
+
+[node name="GridCell187" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 112 )
+
+[node name="GridCell188" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 112 )
+
+[node name="GridCell189" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 112 )
+
+[node name="GridCell190" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 112 )
+
+[node name="GridCell191" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 112 )
+
+[node name="GridCell192" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 112 )
+
+[node name="GridCell193" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 128 )
+
+[node name="GridCell194" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 128 )
+
+[node name="GridCell195" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 128 )
+
+[node name="GridCell196" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 128 )
+
+[node name="GridCell197" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 128 )
+
+[node name="GridCell198" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 128 )
+
+[node name="GridCell199" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 128 )
+
+[node name="GridCell200" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 128 )
+
+[node name="GridCell201" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 128 )
+
+[node name="GridCell202" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 128 )
+
+[node name="GridCell203" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 128 )
+
+[node name="GridCell204" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 128 )
+
+[node name="GridCell205" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 128 )
+
+[node name="GridCell206" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 128 )
+
+[node name="GridCell207" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 128 )
+
+[node name="GridCell208" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 128 )
+
+[node name="GridCell209" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 128 )
+
+[node name="GridCell210" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 128 )
+
+[node name="GridCell211" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 128 )
+
+[node name="GridCell212" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 128 )
+
+[node name="GridCell213" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 128 )
+
+[node name="GridCell214" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 128 )
+
+[node name="GridCell215" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 128 )
+
+[node name="GridCell216" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 128 )
+
+[node name="GridCell217" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 144 )
+
+[node name="GridCell218" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 144 )
+
+[node name="GridCell219" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 144 )
+
+[node name="GridCell220" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 144 )
+
+[node name="GridCell221" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 144 )
+
+[node name="GridCell222" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 144 )
+
+[node name="GridCell223" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 144 )
+
+[node name="GridCell224" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 144 )
+
+[node name="GridCell225" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 144 )
+
+[node name="GridCell226" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 144 )
+
+[node name="GridCell227" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 144 )
+
+[node name="GridCell228" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 144 )
+
+[node name="GridCell229" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 144 )
+
+[node name="GridCell230" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 144 )
+
+[node name="GridCell231" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 144 )
+
+[node name="GridCell232" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 144 )
+
+[node name="GridCell233" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 144 )
+
+[node name="GridCell234" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 144 )
+
+[node name="GridCell235" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 144 )
+
+[node name="GridCell236" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 144 )
+
+[node name="GridCell237" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 144 )
+
+[node name="GridCell238" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 144 )
+
+[node name="GridCell239" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 144 )
+
+[node name="GridCell240" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 144 )
+
+[node name="GridCell241" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 160 )
+
+[node name="GridCell242" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 160 )
+
+[node name="GridCell243" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 160 )
+
+[node name="GridCell244" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 160 )
+
+[node name="GridCell245" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 160 )
+
+[node name="GridCell246" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 160 )
+
+[node name="GridCell247" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 160 )
+
+[node name="GridCell248" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 160 )
+
+[node name="GridCell249" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 160 )
+
+[node name="GridCell250" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 160 )
+
+[node name="GridCell251" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 160 )
+
+[node name="GridCell252" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 160 )
+
+[node name="GridCell253" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 160 )
+
+[node name="GridCell254" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 160 )
+
+[node name="GridCell255" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 160 )
+
+[node name="GridCell256" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 160 )
+
+[node name="GridCell257" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 160 )
+
+[node name="GridCell258" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 160 )
+
+[node name="GridCell259" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 160 )
+
+[node name="GridCell260" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 160 )
+
+[node name="GridCell261" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 160 )
+
+[node name="GridCell262" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 160 )
+
+[node name="GridCell263" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 160 )
+
+[node name="GridCell264" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 160 )
+
+[node name="GridCell265" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 0, 176 )
+
+[node name="GridCell266" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 16, 176 )
+
+[node name="GridCell267" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 32, 176 )
+
+[node name="GridCell268" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 48, 176 )
+
+[node name="GridCell269" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 64, 176 )
+
+[node name="GridCell270" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 80, 176 )
+
+[node name="GridCell271" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 96, 176 )
+
+[node name="GridCell272" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 112, 176 )
+
+[node name="GridCell273" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 128, 176 )
+
+[node name="GridCell274" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 144, 176 )
+
+[node name="GridCell275" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 160, 176 )
+
+[node name="GridCell276" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 176, 176 )
+
+[node name="GridCell277" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 192, 176 )
+
+[node name="GridCell278" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 208, 176 )
+
+[node name="GridCell279" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 224, 176 )
+
+[node name="GridCell280" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 240, 176 )
+
+[node name="GridCell281" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 256, 176 )
+
+[node name="GridCell282" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 272, 176 )
+
+[node name="GridCell283" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 288, 176 )
+
+[node name="GridCell284" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 304, 176 )
+
+[node name="GridCell285" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 320, 176 )
+
+[node name="GridCell286" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 336, 176 )
+
+[node name="GridCell287" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 352, 176 )
+
+[node name="GridCell288" parent="Chunk4" instance=ExtResource( 1 )]
+position = Vector2( 368, 176 )
