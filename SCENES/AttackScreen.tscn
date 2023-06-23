@@ -1,6 +1,14 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://SCENES/AttackScreen.cs" type="Script" id=1]
+[ext_resource path="res://ASSETS/Fonts/BasicFont.theme" type="Theme" id=2]
+
+[sub_resource type="StyleBoxFlat" id=2]
+
+[sub_resource type="StyleBoxFlat" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.419608, 0.286275, 0.196078, 1 )
 
 [node name="AttackScreen" type="CanvasLayer"]
 script = ExtResource( 1 )
@@ -18,3 +26,67 @@ color = Color( 0.658824, 0.415686, 0.858824, 1 )
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.15
+
+[node name="AttackSelect" type="ColorRect" parent="."]
+margin_left = 84.0
+margin_top = 15.0
+margin_right = 239.0
+margin_bottom = 156.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Side" type="Button" parent="AttackSelect"]
+margin_left = 38.0
+margin_top = 26.0
+margin_right = 110.0
+margin_bottom = 46.0
+theme = ExtResource( 2 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/normal = SubResource( 1 )
+text = " Side swing "
+
+[node name="Down" type="Button" parent="AttackSelect"]
+margin_left = 35.0
+margin_top = 82.0
+margin_right = 112.0
+margin_bottom = 102.0
+theme = ExtResource( 2 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/normal = SubResource( 1 )
+text = " Down swing "
+
+[node name="Up" type="Button" parent="AttackSelect"]
+margin_left = 43.0
+margin_top = 54.0
+margin_right = 105.0
+margin_bottom = 74.0
+theme = ExtResource( 2 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/normal = SubResource( 1 )
+text = " Up swing "
+
+[node name="Stab" type="Button" parent="AttackSelect"]
+margin_left = 56.0
+margin_top = 110.0
+margin_right = 92.0
+margin_bottom = 130.0
+theme = ExtResource( 2 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/normal = SubResource( 1 )
+text = " Stab "
+
+[node name="Label" type="Label" parent="AttackSelect"]
+margin_left = 5.0
+margin_top = 1.0
+margin_right = 147.0
+margin_bottom = 15.0
+theme = ExtResource( 2 )
+text = "Select attack direction:"
+
+[connection signal="pressed" from="AttackSelect/Side" to="." method="sig_SidePressed"]
+[connection signal="pressed" from="AttackSelect/Down" to="." method="sig_DownPressed"]
+[connection signal="pressed" from="AttackSelect/Up" to="." method="sig_UpPressed"]
+[connection signal="pressed" from="AttackSelect/Stab" to="." method="sig_StabPressed"]

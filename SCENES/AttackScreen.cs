@@ -7,11 +7,25 @@ public class AttackScreen : CanvasLayer
 
 	PackedScene popTextScene = GD.Load<PackedScene>("res://SCENES/PopText.tscn");
 	Timer timer;
+	ColorRect attackSelect;
+
+	Entity attacker;
+	Entity recipient;
+	int distance;
 
 
 	public override void _Ready()
 	{
 		timer = GetNode<Timer>("Timer");
+		attackSelect = GetNode<ColorRect>("AttackSelect");
+	}
+
+	public void PrepBattle(Entity attacker, Entity recipient, int distance)
+	{
+		attackSelect.Show();
+		this.attacker = attacker;
+		this.recipient = recipient;
+		this.distance = distance;
 	}
 
     public async void Battle(Entity attacker, Entity recipient, Level.Direction direction, int distance)
@@ -172,5 +186,29 @@ public class AttackScreen : CanvasLayer
 		popText.SetPosition(new Vector2(GD.Randf()*200 + 50, GD.Randf()*100 + 30));
 		popText.RectScale = Vector2.One * (GD.Randf() + 1);
 		AddChild(popText);
+	}
+
+	public void sig_SidePressed()
+	{
+		attackSelect.Hide();
+		Battle(attacker, recipient, Level.Direction.Side, distance);
+	}
+
+	public void sig_UpPressed()
+	{
+		attackSelect.Hide();
+		Battle(attacker, recipient, Level.Direction.Bottom, distance);
+	}
+
+	public void sig_DownPressed()
+	{
+		attackSelect.Hide();
+		Battle(attacker, recipient, Level.Direction.Top, distance);
+	}
+
+	public void sig_StabPressed()
+	{
+		attackSelect.Hide();
+		Battle(attacker, recipient, Level.Direction.Stab, distance);
 	}
 }

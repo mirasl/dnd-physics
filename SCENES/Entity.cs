@@ -15,12 +15,12 @@ public class Entity : Node2D
     // private string b = "text";
     public float hp;
     public float currenthp;
-    public int str = 10;
+    public int str = 50;
     public float mass = 50;
     public float stamina = 100;
     public float height = 1.6f;
 	public float weaponLength = 1;
-	public float weaponMass = 30;
+	public float weaponMass = 10;
 
 	Tween tween;
 	AnimatedSprite currentAnimatedSprite;

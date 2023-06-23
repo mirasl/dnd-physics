@@ -135,10 +135,11 @@ public class Level : Node2D
 
 	public void InitiateBattle()
 	{
+
 		attackScreen.Show();
 		Vector2 distance = new Vector2((int)(GetGlobalMousePosition().x/16)*16, (int)(GetGlobalMousePosition().y/16)*16);
 		distance = GetTileManhattanDistance(distance);
 		int totalDistance = Mathf.Abs((int)distance.x) + Mathf.Abs((int)distance.y);
-		attackScreen.Battle(activeEntity, activeOpponent, Direction.Top, totalDistance);
+		attackScreen.PrepBattle(activeEntity, activeOpponent, totalDistance);
 	}
 }
