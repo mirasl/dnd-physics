@@ -23,16 +23,9 @@ public class Arrow : Node2D
 		y.Scale = new Vector2(4, Mathf.Abs(pos.y * 16 + 4) * Mathf.Sign(pos.y));
 		y.Position = new Vector2(-2 + pos.x*16, -2);
 
+		arrowhead.Visible = pos != Vector2.Zero;
 		if (pos.y == 0)
 		{
-			if (pos.x == 0)
-			{
-				arrowhead.Hide();
-			}
-			else
-			{
-				arrowhead.Show();
-			}
 			arrowhead.FlipH = pos.x < 0;
 			arrowhead.RotationDegrees = 0;
 		}
