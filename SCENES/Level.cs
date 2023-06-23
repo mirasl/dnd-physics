@@ -35,7 +35,7 @@ public class Level : Node2D
 
 	public void MoveEntityToTile(Vector2 pos)
 	{
-		activeEntity.GlobalPosition = new Vector2(pos.x + 2, pos.y - 10);
+		activeEntity.WalkTo(new Vector2(pos.x + 2, pos.y - 10) - activeEntity.GlobalPosition);
 		Deactivate();
 		GetNode<Timer>("ActiveCooldown").Start();
 		activeCoolingDown = true;
@@ -53,5 +53,18 @@ public class Level : Node2D
 		activeEntity.Visible = true;
 		activeEntity = null;
 		activePopup.Hide();
+	}
+
+	public Vector2 GetTileManhattanDistance(Vector2 tilePos)
+	{
+		if (activeEntity == null)
+		{
+			return Vector2.Zero;
+		}
+
+		Vector2 tileDifference = new Vector2(tilePos.x + 2, tilePos.y - 10) - activeEntity.GlobalPosition;
+		tileDifference /= 16;
+		tileDifference = new Vector2(Mathf.Round(tileDifference.x), Mathf.Round(tileDifference.y));
+		return tileDifference;
 	}
 }
