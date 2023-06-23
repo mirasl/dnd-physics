@@ -9,7 +9,9 @@ public class Level : Node2D
 
 	public bool ActiveMode {private set; get;} = false;
 	private Entity activeEntity;
+	private Entity activeOpponent;
 	private bool activeCoolingDown = false;
+	private bool threatening = false;
 
 
 	public override void _Ready()
@@ -36,6 +38,15 @@ public class Level : Node2D
 		{
 			arrow.Visible = false;
 		}
+
+		if (threatening)
+		{
+			arrow.Modulate = Colors.DarkRed;
+		}
+		else
+		{
+			arrow.Modulate = Colors.LightBlue;
+		}
 	}
 
 	public void sig_ToActiveMode(Entity entity)
@@ -56,8 +67,16 @@ public class Level : Node2D
 
 	public void MoveEntityToTile(Vector2 pos)
 	{
-		activeEntity.WalkTo(new Vector2(pos.x + 2, pos.y - 10) - activeEntity.GlobalPosition);
+		if (threatening)
+		{
+			InitiateBattle();
+		}
+		else
+		{
+			activeEntity.WalkTo(new Vector2(pos.x + 2, pos.y - 10) - activeEntity.GlobalPosition);
+		}
 		Deactivate();
+		threatening = false;
 		GetNode<Timer>("ActiveCooldown").Start();
 		activeCoolingDown = true;
 	}
@@ -87,5 +106,23 @@ public class Level : Node2D
 		tileDifference /= 16;
 		tileDifference = new Vector2(Mathf.Round(tileDifference.x), Mathf.Round(tileDifference.y));
 		return tileDifference;
+	}
+
+	public void sig_Threatened(bool state, Entity opponent)
+	{
+		threatening = state;
+		if (threatening)
+		{
+			activeOpponent = opponent;
+		}
+		else
+		{
+			activeOpponent = null;
+		}
+	}
+
+	private void InitiateBattle()
+	{
+		GD.Print("LETS A GO");
 	}
 }
