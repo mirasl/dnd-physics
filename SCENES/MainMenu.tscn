@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://ASSETS/Fonts/BasicFont.theme" type="Theme" id=1]
+[ext_resource path="res://SCENES/MainMenu.cs" type="Script" id=2]
 
 [node name="MainMenu" type="CanvasLayer"]
+script = ExtResource( 2 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchor_right = 1.0
@@ -34,23 +36,28 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -92.0
+margin_left = -55.5
 margin_top = -11.5
-margin_right = 92.0
+margin_right = 55.5
 margin_bottom = 11.5
 
-[node name="Label" type="Label" parent="VBoxContainer"]
+[node name="AddPlyaer\?" type="Label" parent="VBoxContainer"]
 margin_top = 5.0
-margin_right = 110.0
+margin_right = 74.0
 margin_bottom = 18.0
 theme = ExtResource( 1 )
-text = "How many players?"
+text = "Add a plyer?"
 
-[node name="LineEdit" type="LineEdit" parent="VBoxContainer"]
-margin_left = 114.0
-margin_right = 184.0
+[node name="AddPlayerButton" type="Button" parent="VBoxContainer"]
+margin_left = 78.0
+margin_right = 111.0
 margin_bottom = 23.0
 theme = ExtResource( 1 )
-custom_colors/selection_color = Color( 1, 1, 1, 1 )
-custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
-text = "N/A"
+text = "add"
+
+[node name="TextureButton" type="TextureButton" parent="VBoxContainer"]
+margin_left = 115.0
+margin_right = 115.0
+margin_bottom = 23.0
+
+[connection signal="pressed" from="VBoxContainer/AddPlayerButton" to="." method="sig_AddPlayerPressed"]
