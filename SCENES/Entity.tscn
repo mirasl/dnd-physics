@@ -159,6 +159,7 @@ visible = false
 position = Vector2( 6, 2 )
 frames = SubResource( 25 )
 animation = "idle"
+frame = 1
 playing = true
 
 [node name="Jeff" type="AnimatedSprite" parent="."]
@@ -167,7 +168,6 @@ modulate = Color( 0.729412, 0, 0, 1 )
 position = Vector2( 6, 2 )
 frames = SubResource( 25 )
 animation = "idle"
-frame = 5
 playing = true
 
 [node name="Tween" type="Tween" parent="."]

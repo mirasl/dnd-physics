@@ -6,6 +6,7 @@ public class Level : Node2D
 	CanvasLayer activePopup;
 	Arrow arrow;
 	GameUI sidebar;
+	AttackScreen attackScreen;
 
 	public bool ActiveMode {private set; get;} = false;
 	private Entity activeEntity;
@@ -13,14 +14,24 @@ public class Level : Node2D
 	private bool activeCoolingDown = false;
 	private bool threatening = false;
 
+    public enum Direction
+    {
+        Side,
+        Top,
+        Bottom,
+        Stab
+    }
+
 
 	public override void _Ready()
 	{
 		activePopup = GetNode<CanvasLayer>("ActivePopup");
 		arrow = GetNode<Arrow>("Arrow");
 		sidebar = GetNode<GameUI>("GameUI");
+		attackScreen = GetNode<AttackScreen>("AttackScreen");
 
 		activePopup.Hide();
+		attackScreen.Hide();
 	}
 
 	public override void _Process(float delta)
@@ -121,8 +132,13 @@ public class Level : Node2D
 		}
 	}
 
-	private void InitiateBattle()
+
+	public void InitiateBattle()
 	{
-		GD.Print("LETS A GO");
+		attackScreen.Show();
+		Vector2 distance = new Vector2((int)(GetGlobalMousePosition().x/16)*16, (int)(GetGlobalMousePosition().y/16)*16);
+		distance = GetTileManhattanDistance(distance);
+		int totalDistance = Mathf.Abs((int)distance.x) + Mathf.Abs((int)distance.y);
+		attackScreen.Battle(activeEntity, activeOpponent, Direction.Top, totalDistance);
 	}
 }
