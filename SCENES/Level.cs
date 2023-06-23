@@ -4,6 +4,7 @@ using System;
 public class Level : Node2D
 {
 	CanvasLayer activePopup;
+	Arrow arrow;
 
 	public bool ActiveMode {private set; get;} = false;
 	private Entity activeEntity;
@@ -13,8 +14,26 @@ public class Level : Node2D
 	public override void _Ready()
 	{
 		activePopup = GetNode<CanvasLayer>("ActivePopup");
+		arrow = GetNode<Arrow>("Arrow");
 
 		activePopup.Hide();
+	}
+
+	public override void _Process(float delta)
+	{
+		if (ActiveMode && activeEntity != null)
+		{
+			Vector2 tilePosition = new Vector2((int)(GetGlobalMousePosition().x/16)*16, 
+					(int)(GetGlobalMousePosition().y/16)*16);
+
+			arrow.Visible = true;
+			arrow.PointTo(GetTileManhattanDistance(tilePosition));
+			arrow.Position = activeEntity.Position + new Vector2(6.5f, 16);
+		}
+		else
+		{
+			arrow.Visible = false;
+		}
 	}
 
 	public void sig_ToActiveMode(Entity entity)

@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ASSETS/MagicPixel.png" type="Texture" id=1]
+[ext_resource path="res://SCENES/Arrow.cs" type="Script" id=2]
+[ext_resource path="res://ASSETS/arrowhead.png" type="Texture" id=3]
+
+[node name="Arrow" type="Node2D"]
+modulate = Color( 0, 1, 0.882353, 1 )
+script = ExtResource( 2 )
+
+[node name="X" type="Sprite" parent="."]
+position = Vector2( -2, -2 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Anchor" type="Sprite" parent="."]
+position = Vector2( -2, -2 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Y" type="Sprite" parent="."]
+position = Vector2( -2, -2 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Arrowhead" type="Sprite" parent="."]
+texture = ExtResource( 3 )
