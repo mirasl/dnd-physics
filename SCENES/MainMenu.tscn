@@ -1,0 +1,56 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ASSETS/Fonts/BasicFont.theme" type="Theme" id=1]
+
+[node name="MainMenu" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.321569, 0.247059, 0.196078, 1 )
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -52.0
+margin_top = 6.0
+margin_right = 18.0
+margin_bottom = 19.0
+rect_scale = Vector2( 1.5, 1.5 )
+theme = ExtResource( 1 )
+text = "DnD Physics"
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -52.0
+margin_top = 26.0
+margin_right = 52.0
+margin_bottom = 27.0
+grow_horizontal = 2
+
+[node name="VBoxContainer" type="HBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -92.0
+margin_top = -11.5
+margin_right = 92.0
+margin_bottom = 11.5
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_top = 5.0
+margin_right = 110.0
+margin_bottom = 18.0
+theme = ExtResource( 1 )
+text = "How many players?"
+
+[node name="LineEdit" type="LineEdit" parent="VBoxContainer"]
+margin_left = 114.0
+margin_right = 184.0
+margin_bottom = 23.0
+theme = ExtResource( 1 )
+custom_colors/selection_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+text = "N/A"
