@@ -13,14 +13,16 @@ public class Entity : Node2D
     // Declare member variables here. Examples:
     // private int a = 2;
     // private string b = "text";
-    public float hp;
-    public float currenthp;
+	public string name = "Jeff";
+    public float hp = 10;
+    public float currenthp = 10;
     public int str = 50;
     public float mass = 50;
     public float stamina = 100;
     public float height = 1.6f;
 	public float weaponLength = 1;
 	public float weaponMass = 10;
+	public string weaponName = "Epic hammer of epicness";
 
 	Tween tween;
 	AnimatedSprite currentAnimatedSprite;

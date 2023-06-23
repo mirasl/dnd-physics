@@ -1,7 +1,11 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://ASSETS/Fonts/BasicFont.theme" type="Theme" id=1]
 [ext_resource path="res://SCENES/GameUI.cs" type="Script" id=2]
+[ext_resource path="res://ASSETS/Fonts/HopeGold.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
 
 [node name="GameUI" type="CanvasLayer"]
 script = ExtResource( 2 )
@@ -36,94 +40,204 @@ margin_left = 3.0
 margin_top = 20.0
 margin_right = -3.0
 margin_bottom = -3.0
+rect_scale = Vector2( 0.5, 0.5 )
 columns = 2
 
 [node name="Name" type="Label" parent="ColorRect/GridContainer"]
-margin_top = 8.0
-margin_right = 49.0
-margin_bottom = 21.0
+margin_right = 89.0
+margin_bottom = 13.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 text = "Name:"
 
 [node name="NameInfo" type="Label" parent="ColorRect/GridContainer"]
-margin_left = 53.0
-margin_top = 8.0
-margin_right = 64.0
-margin_bottom = 21.0
+margin_left = 93.0
+margin_right = 94.0
+margin_bottom = 13.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 
 [node name="Health" type="Label" parent="ColorRect/GridContainer"]
-margin_top = 40.0
-margin_right = 49.0
-margin_bottom = 53.0
+margin_top = 17.0
+margin_right = 89.0
+margin_bottom = 30.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 text = "Health:"
 
 [node name="HealthInfo" type="Label" parent="ColorRect/GridContainer"]
-margin_left = 53.0
-margin_top = 40.0
-margin_right = 64.0
-margin_bottom = 53.0
+margin_left = 93.0
+margin_top = 17.0
+margin_right = 94.0
+margin_bottom = 30.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 
 [node name="Stamina" type="Label" parent="ColorRect/GridContainer"]
-margin_top = 72.0
-margin_right = 49.0
-margin_bottom = 85.0
+margin_top = 34.0
+margin_right = 89.0
+margin_bottom = 47.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 text = "Stamina:"
 
 [node name="StaminaInfo" type="Label" parent="ColorRect/GridContainer"]
-margin_left = 53.0
-margin_top = 72.0
-margin_right = 64.0
-margin_bottom = 85.0
+margin_left = 93.0
+margin_top = 34.0
+margin_right = 94.0
+margin_bottom = 47.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 
 [node name="Mass" type="Label" parent="ColorRect/GridContainer"]
-margin_top = 104.0
-margin_right = 49.0
-margin_bottom = 117.0
+margin_top = 51.0
+margin_right = 89.0
+margin_bottom = 64.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 text = "Mass:"
 
 [node name="MassInfo" type="Label" parent="ColorRect/GridContainer"]
-margin_left = 53.0
-margin_top = 104.0
-margin_right = 64.0
-margin_bottom = 117.0
+margin_left = 93.0
+margin_top = 51.0
+margin_right = 94.0
+margin_bottom = 64.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 
 [node name="Height" type="Label" parent="ColorRect/GridContainer"]
-margin_top = 136.0
-margin_right = 49.0
-margin_bottom = 149.0
+margin_top = 68.0
+margin_right = 89.0
+margin_bottom = 81.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
 text = "Height:"
 
 [node name="HeightInfo" type="Label" parent="ColorRect/GridContainer"]
-margin_left = 53.0
+margin_left = 93.0
+margin_top = 68.0
+margin_right = 94.0
+margin_bottom = 81.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+
+[node name="Strength" type="Label" parent="ColorRect/GridContainer"]
+margin_top = 85.0
+margin_right = 89.0
+margin_bottom = 98.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Strength:"
+
+[node name="StrengthInfo" type="Label" parent="ColorRect/GridContainer"]
+margin_left = 93.0
+margin_top = 85.0
+margin_right = 94.0
+margin_bottom = 98.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+
+[node name="Weapon" type="Label" parent="ColorRect/GridContainer"]
+margin_top = 102.0
+margin_right = 89.0
+margin_bottom = 115.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Weapon:"
+
+[node name="blank" type="Label" parent="ColorRect/GridContainer"]
+margin_left = 93.0
+margin_top = 102.0
+margin_right = 94.0
+margin_bottom = 115.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+
+[node name="WeaponInfo" type="Label" parent="ColorRect/GridContainer"]
+margin_top = 119.0
+margin_right = 89.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+autowrap = true
+
+[node name="blank2" type="Label" parent="ColorRect/GridContainer"]
+margin_left = 93.0
+margin_top = 119.0
+margin_right = 94.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+
+[node name="WeaponLength" type="Label" parent="ColorRect/GridContainer"]
 margin_top = 136.0
-margin_right = 64.0
+margin_right = 89.0
 margin_bottom = 149.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Weapon Length:"
+
+[node name="WeaponLengthInfo" type="Label" parent="ColorRect/GridContainer"]
+margin_left = 93.0
+margin_top = 136.0
+margin_right = 94.0
+margin_bottom = 149.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+autowrap = true
+
+[node name="WeaponMass" type="Label" parent="ColorRect/GridContainer"]
+margin_top = 153.0
+margin_right = 89.0
+margin_bottom = 166.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Weapon Mass:"
+
+[node name="WeaponMassInfo" type="Label" parent="ColorRect/GridContainer"]
+margin_left = 93.0
+margin_top = 153.0
+margin_right = 94.0
+margin_bottom = 166.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )

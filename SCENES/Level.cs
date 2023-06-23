@@ -74,6 +74,7 @@ public class Level : Node2D
 		ActiveMode = true;
 		activeEntity = entity;
 		activeEntity.Active = true;
+		sidebar.SetValues(activeEntity);
 	}
 
 	public void MoveEntityToTile(Vector2 pos)

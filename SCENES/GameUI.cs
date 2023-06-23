@@ -3,19 +3,42 @@ using System;
 
 public class GameUI : CanvasLayer
 {
-    // Declare member variables here. Examples:
-    // private int a = 2;
-    // private string b = "text";
+	Label nameInfo;
+	Label healthInfo;
+	Label staminaInfo;
+	Label massInfo;
+	Label heightInfo;
+	Label strengthInfo;
+	Label weaponInfo;
+	Label weaponLengthInfo;
+	Label weaponMassInfo;
 
-    // Called when the node enters the scene tree for the first time.
-    public override void _Ready()
-    {
-        
-    }
 
-//  // Called every frame. 'delta' is the elapsed time since the previous frame.
-//  public override void _Process(float delta)
-//  {
-//      
-//  }
+	public override void _Ready()
+	{
+		nameInfo = GetNode<Label>("ColorRect/GridContainer/NameInfo");
+		healthInfo = GetNode<Label>("ColorRect/GridContainer/HealthInfo");
+		staminaInfo = GetNode<Label>("ColorRect/GridContainer/StaminaInfo");
+		massInfo = GetNode<Label>("ColorRect/GridContainer/MassInfo");
+		heightInfo = GetNode<Label>("ColorRect/GridContainer/HeightInfo");
+		strengthInfo = GetNode<Label>("ColorRect/GridContainer/StrengthInfo");
+		weaponInfo = GetNode<Label>("ColorRect/GridContainer/WeaponInfo");
+		weaponLengthInfo = GetNode<Label>("ColorRect/GridContainer/WeaponLengthInfo");
+		weaponMassInfo = GetNode<Label>("ColorRect/GridContainer/WeaponMassInfo");
+	}
+
+	
+
+    public void SetValues(Entity e)
+	{
+		nameInfo.Text = "" + e.name;
+		healthInfo.Text = "" + e.currenthp + " J";
+		staminaInfo.Text = "" + e.stamina + " J";
+		massInfo.Text = "" + e.mass + " kg";
+		heightInfo.Text = "" + e.height + " m";
+		strengthInfo.Text = "" + e.str + " N";
+		weaponInfo.Text = "" + e.weaponName;
+		weaponLengthInfo.Text = "" + e.weaponLength + " m";
+		weaponMassInfo.Text = "" + e.weaponMass + " kg";
+	}
 }

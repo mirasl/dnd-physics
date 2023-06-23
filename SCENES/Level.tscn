@@ -803,6 +803,7 @@ visible = false
 visible = false
 
 [node name="AttackScreen" parent="." instance=ExtResource( 14 )]
+visible = false
 
 [connection signal="Threatened" from="Jeff" to="." method="sig_Threatened"]
 [connection signal="ToActiveMode" from="Jeff" to="." method="sig_ToActiveMode"]
