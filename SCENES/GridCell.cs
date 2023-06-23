@@ -18,7 +18,7 @@ public class GridCell : AnimatedSprite
 			Animation = "hover";
 			if (Input.IsActionJustPressed("leftclick"))
 			{
-				level.MoveEntityToTile(Position);
+				level.MoveEntityToTile(GlobalPosition);
 			}
 		}
 		else

@@ -5,8 +5,9 @@ public class Level : Node2D
 {
 	CanvasLayer activePopup;
 
-	public bool ActiveMode = false;
+	public bool ActiveMode {private set; get;} = false;
 	private Entity activeEntity;
+	private bool activeCoolingDown = false;
 
 
 	public override void _Ready()
@@ -18,6 +19,10 @@ public class Level : Node2D
 
 	public void sig_ToActiveMode(Entity entity)
 	{
+		if (activeCoolingDown)
+		{
+			return;
+		}
 		activePopup.Show();
 		ActiveMode = true;
 		activeEntity = entity;
@@ -25,6 +30,16 @@ public class Level : Node2D
 
 	public void MoveEntityToTile(Vector2 pos)
 	{
-		activeEntity.Position = new Vector2(pos.x + 2, pos.y - 10);
+		activeEntity.GlobalPosition = new Vector2(pos.x + 2, pos.y - 10);
+		ActiveMode = false;
+		activeEntity = null;
+		activePopup.Hide();
+		GetNode<Timer>("ActiveCooldown").Start();
+		activeCoolingDown = true;
+	}
+
+	public void sig_ActiveCooldownFinished()
+	{
+		activeCoolingDown = false;
 	}
 }
