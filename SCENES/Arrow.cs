@@ -6,6 +6,7 @@ public class Arrow : Node2D
 	Sprite x;
 	Sprite y;
 	Sprite arrowhead;
+	
 
 
 	public override void _Ready()

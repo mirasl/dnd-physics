@@ -5,6 +5,7 @@ public class Level : Node2D
 {
 	CanvasLayer activePopup;
 	Arrow arrow;
+	GameUI sidebar;
 
 	public bool ActiveMode {private set; get;} = false;
 	private Entity activeEntity;
@@ -15,6 +16,7 @@ public class Level : Node2D
 	{
 		activePopup = GetNode<CanvasLayer>("ActivePopup");
 		arrow = GetNode<Arrow>("Arrow");
+		sidebar = GetNode<GameUI>("GameUI");
 
 		activePopup.Hide();
 	}

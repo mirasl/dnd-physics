@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://ASSETS/Fonts/BasicFont.theme" type="Theme" id=1]
+[ext_resource path="res://SCENES/GameUI.cs" type="Script" id=2]
 
 [node name="GameUI" type="CanvasLayer"]
+script = ExtResource( 2 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 70.0
