@@ -23,17 +23,20 @@ public class Level : Node2D
 		{
 			return;
 		}
+		// if (ActiveMode)
+		// {
+		// 	Deactivate();
+		// }
 		activePopup.Show();
 		ActiveMode = true;
 		activeEntity = entity;
+		activeEntity.Active = true;
 	}
 
 	public void MoveEntityToTile(Vector2 pos)
 	{
 		activeEntity.GlobalPosition = new Vector2(pos.x + 2, pos.y - 10);
-		ActiveMode = false;
-		activeEntity = null;
-		activePopup.Hide();
+		Deactivate();
 		GetNode<Timer>("ActiveCooldown").Start();
 		activeCoolingDown = true;
 	}
@@ -41,5 +44,14 @@ public class Level : Node2D
 	public void sig_ActiveCooldownFinished()
 	{
 		activeCoolingDown = false;
+	}
+
+	private void Deactivate()
+	{
+		ActiveMode = false;
+		activeEntity.Active = false;
+		activeEntity.Visible = true;
+		activeEntity = null;
+		activePopup.Hide();
 	}
 }

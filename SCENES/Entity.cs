@@ -19,9 +19,13 @@ public class Entity : Node2D
     public int height;
     public Weapon weapon;
 
+	public bool Active = false;
+	float time = 0;
+
 
 	public override void _PhysicsProcess(float delta)
 	{
+		time += delta;
 		if (MouseHovering())
 		{
 			Modulate = new Color(0.5f,0.5f,0.5f);
@@ -33,6 +37,12 @@ public class Entity : Node2D
 		else
 		{
 			Modulate = Colors.White;
+		}
+
+		if (Active)
+		{
+			GD.Print("active" + Name);
+			Visible = (int)(time*4)%2 == 0;
 		}
 	}
 
