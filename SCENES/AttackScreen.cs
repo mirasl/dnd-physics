@@ -8,16 +8,23 @@ public class AttackScreen : CanvasLayer
 	PackedScene popTextScene = GD.Load<PackedScene>("res://SCENES/PopText.tscn");
 	Timer timer;
 	ColorRect attackSelect;
+	ColorRect colorRect;
 
 	Entity attacker;
 	Entity recipient;
 	int distance;
+	AnimatedSprite animatedSprite;
 
 
 	public override void _Ready()
 	{
 		timer = GetNode<Timer>("Timer");
 		attackSelect = GetNode<ColorRect>("AttackSelect");
+		animatedSprite = GetNode<AnimatedSprite>("AnimatedSprite");
+		colorRect = GetNode<ColorRect>("ColorRect");
+
+		animatedSprite.Hide();
+		colorRect.Color = new Color("a86adb");
 	}
 
 	public void PrepBattle(Entity attacker, Entity recipient, int distance)
@@ -35,22 +42,31 @@ public class AttackScreen : CanvasLayer
 		float work = torque * Mathf.Pi/2;
 		float damage = 0;
 
+		animatedSprite.Show();
+		string animationName = attacker.weaponName;
+
         if (direction == Level.Direction.Side) 
 		{
             damage = ((attacker.weaponLength + attacker.height/2) * (Mathf.Pi / 2) * (attacker.str));
+			animationName += "Up";
         } 
 		else if (direction == Level.Direction.Top) 
 		{
-            damage = ((attacker.weaponLength + attacker.height/2) * (Mathf.Pi / 2) * (attacker.str) + (attacker.weaponMass * GRAVITY * (attacker.height/2)));
+			damage = ((attacker.weaponLength + attacker.height/2) * (Mathf.Pi / 2) * (attacker.str) + (attacker.weaponMass * GRAVITY * (attacker.height/2)));
+            animationName += "Down";
         } 
 		else if (direction == Level.Direction.Bottom) 
 		{
-            damage = ((attacker.weaponLength + attacker.height/2) * (Mathf.Pi / 2) * (attacker.str) - (attacker.weaponMass * GRAVITY * (attacker.height/2)));
+			damage = ((attacker.weaponLength + attacker.height/2) * (Mathf.Pi / 2) * (attacker.str) - (attacker.weaponMass * GRAVITY * (attacker.height/2)));
+            animationName += "Up";
         } 
 		else if (direction == Level.Direction.Stab) 
 		{
-            damage = distance * attacker.str;
+		   damage = distance * attacker.str;
+           animationName += "Stab";
         }
+
+		animatedSprite.Play(animationName);
 
 		if (direction != Level.Direction.Stab)
 		{
@@ -157,7 +173,17 @@ public class AttackScreen : CanvasLayer
 		popText1.RectScale = Vector2.One * 8;
 		AddChild(popText1);
 
+		colorRect.Color = Colors.Red;
 
+		float time = 0;
+		while (time < 10)
+		{
+			await ToSignal(GetTree().CreateTimer(0.1f), "timeout");
+			Offset = new Vector2(GD.Randf()*10 - 5, GD.Randf() * 10 - 5);
+			time++;
+		}
+
+		Clear();
 
     	// float damage = 0;
         // if (choice == Direction.Side) 
@@ -177,6 +203,13 @@ public class AttackScreen : CanvasLayer
         //     damage = distance * str;
         // }
     }
+	
+	private void Clear()
+	{
+		animatedSprite.Hide();
+		colorRect.Color = new Color("a86adb");
+		Hide();
+	}
 
 	private void PopText(string text)
 	{

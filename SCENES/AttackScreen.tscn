@@ -1,7 +1,66 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=66 format=2]
 
 [ext_resource path="res://SCENES/AttackScreen.cs" type="Script" id=1]
 [ext_resource path="res://ASSETS/Fonts/BasicFont.theme" type="Theme" id=2]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-9.png" type="Texture" id=3]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-3.png" type="Texture" id=4]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-2.png" type="Texture" id=5]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-6.png" type="Texture" id=6]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-1.png" type="Texture" id=7]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-7.png" type="Texture" id=8]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-4.png" type="Texture" id=9]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-8.png" type="Texture" id=10]
+[ext_resource path="res://ASSETS/Animations/Axe down/Axe-down-5.png" type="Texture" id=11]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-9.png" type="Texture" id=12]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-5.png" type="Texture" id=13]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-7.png" type="Texture" id=14]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-1.png" type="Texture" id=15]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-2.png" type="Texture" id=16]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-8.png" type="Texture" id=17]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-6.png" type="Texture" id=18]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-4.png" type="Texture" id=19]
+[ext_resource path="res://ASSETS/Animations/Axe up/Axe-Up-3.png" type="Texture" id=20]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-5.png" type="Texture" id=21]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-9.png" type="Texture" id=22]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-1.png" type="Texture" id=23]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-6.png" type="Texture" id=24]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-2.png" type="Texture" id=25]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-4.png" type="Texture" id=26]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-7.png" type="Texture" id=27]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-8.png" type="Texture" id=28]
+[ext_resource path="res://ASSETS/Animations/Hammer down /Hammer-down-3.png" type="Texture" id=29]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-6.png" type="Texture" id=30]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-5.png" type="Texture" id=31]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-2.png" type="Texture" id=32]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-7.png" type="Texture" id=33]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-1.png" type="Texture" id=34]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-4.png" type="Texture" id=35]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-9.png" type="Texture" id=36]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-3.png" type="Texture" id=37]
+[ext_resource path="res://ASSETS/Animations/Hammer up/Hammer-up-8.png" type="Texture" id=38]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-6.png" type="Texture" id=39]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-8.png" type="Texture" id=40]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-1.png" type="Texture" id=41]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-7.png" type="Texture" id=42]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-5.png" type="Texture" id=43]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-3.png" type="Texture" id=44]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-4.png" type="Texture" id=45]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-9.png" type="Texture" id=46]
+[ext_resource path="res://ASSETS/Animations/Sword down/Sword-down-2.png" type="Texture" id=47]
+[ext_resource path="res://ASSETS/Animations/Sword stab/Sword-_Stab-4.png" type="Texture" id=48]
+[ext_resource path="res://ASSETS/Animations/Sword stab/Sword-_Stab-3.png" type="Texture" id=49]
+[ext_resource path="res://ASSETS/Animations/Sword stab/Sword-_Stab-2.png" type="Texture" id=50]
+[ext_resource path="res://ASSETS/Animations/Sword stab/Sword-_Stab-1.png" type="Texture" id=51]
+[ext_resource path="res://ASSETS/Animations/Sword stab/Sword-_Stab-5.png" type="Texture" id=52]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-8.png" type="Texture" id=53]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-7.png" type="Texture" id=54]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-5.png" type="Texture" id=55]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-4.png" type="Texture" id=56]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-9.png" type="Texture" id=57]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-1.png" type="Texture" id=58]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-6.png" type="Texture" id=59]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-3.png" type="Texture" id=60]
+[ext_resource path="res://ASSETS/Animations/Sword up/Sword-up-2.png" type="Texture" id=61]
 
 [sub_resource type="StyleBoxFlat" id=2]
 
@@ -9,6 +68,44 @@
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.419608, 0.286275, 0.196078, 1 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 7 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 11 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "AxeDown",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 20 ), ExtResource( 19 ), ExtResource( 13 ), ExtResource( 18 ), ExtResource( 14 ), ExtResource( 17 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "AxeUp",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 23 ), ExtResource( 25 ), ExtResource( 29 ), ExtResource( 26 ), ExtResource( 21 ), ExtResource( 24 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 22 ) ],
+"loop": true,
+"name": "HammerDown",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 34 ), ExtResource( 32 ), ExtResource( 37 ), ExtResource( 31 ), ExtResource( 35 ), ExtResource( 30 ), ExtResource( 33 ), ExtResource( 38 ), ExtResource( 36 ) ],
+"loop": true,
+"name": "HammerUp",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 41 ), ExtResource( 47 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 43 ), ExtResource( 39 ), ExtResource( 42 ), ExtResource( 40 ), ExtResource( 46 ) ],
+"loop": true,
+"name": "SwordDown",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 51 ), ExtResource( 50 ), ExtResource( 49 ), ExtResource( 48 ), ExtResource( 52 ) ],
+"loop": true,
+"name": "SwordStab",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 61 ), ExtResource( 60 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 59 ), ExtResource( 54 ), ExtResource( 53 ), ExtResource( 57 ) ],
+"loop": true,
+"name": "SwordUp",
+"speed": 20.0
+} ]
 
 [node name="AttackScreen" type="CanvasLayer"]
 script = ExtResource( 1 )
@@ -28,6 +125,7 @@ color = Color( 0.658824, 0.415686, 0.858824, 1 )
 wait_time = 0.15
 
 [node name="AttackSelect" type="ColorRect" parent="."]
+visible = false
 margin_left = 84.0
 margin_top = 15.0
 margin_right = 239.0
@@ -85,6 +183,14 @@ margin_right = 147.0
 margin_bottom = 15.0
 theme = ExtResource( 2 )
 text = "Select attack direction:"
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 153, 93 )
+frames = SubResource( 4 )
+animation = "SwordUp"
+frame = 4
+playing = true
+flip_h = true
 
 [connection signal="pressed" from="AttackSelect/Side" to="." method="sig_SidePressed"]
 [connection signal="pressed" from="AttackSelect/Down" to="." method="sig_DownPressed"]

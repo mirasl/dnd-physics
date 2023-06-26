@@ -28,7 +28,6 @@ public class GameUI : CanvasLayer
 	}
 
 	
-
     public void SetValues(Entity e)
 	{
 		nameInfo.Text = "" + e.name;

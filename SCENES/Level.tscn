@@ -797,8 +797,10 @@ position = Vector2( 178, 199 )
 [node name="GameUI" parent="." instance=ExtResource( 11 )]
 
 [node name="MainMenu" parent="." instance=ExtResource( 12 )]
+visible = false
 
 [node name="PlayerStatInput" parent="." instance=ExtResource( 13 )]
+visible = false
 
 [node name="AttackScreen" parent="." instance=ExtResource( 14 )]
 visible = false
