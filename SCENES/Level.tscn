@@ -1,8 +1,4 @@
-; <<<<<<< HEAD
-[gd_scene load_steps=39 format=2]
-; =======
-; [gd_scene load_steps=44 format=2]
-; >>>>>>> 87dba4f7d4d7c35d8ff7001b9bc4fc0add60152d
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://ASSETS/tilesets/grass.png" type="Texture" id=1]
 [ext_resource path="res://ASSETS/tilesets/walls/walls.png" type="Texture" id=2]
