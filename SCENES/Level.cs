@@ -7,6 +7,7 @@ public class Level : Node2D
 	Arrow arrow;
 	GameUI sidebar;
 	AttackScreen attackScreen;
+	CanvasLayer mainMenu;
 
 	public bool ActiveMode {private set; get;} = false;
 	private Entity activeEntity;
@@ -29,6 +30,8 @@ public class Level : Node2D
 		arrow = GetNode<Arrow>("Arrow");
 		sidebar = GetNode<GameUI>("GameUI");
 		attackScreen = GetNode<AttackScreen>("AttackScreen");
+		mainMenu = GetNode<CanvasLayer>("MainMenu");
+		mainMenu.Connect("sig_GetPlayerStats", this, "GetPlayerData");
 
 		activePopup.Hide();
 		attackScreen.Hide();
@@ -142,5 +145,12 @@ public class Level : Node2D
 		distance = GetTileManhattanDistance(distance);
 		int totalDistance = Mathf.Abs((int)distance.x) + Mathf.Abs((int)distance.y);
 		attackScreen.PrepBattle(activeEntity, activeOpponent, totalDistance);
+	}
+
+	public void GetPlayerData()
+	{
+		PlayerStatInput playerStat = GetNode<PlayerStatInput>("PlayerStatInput");
+		playerStat.deleteScene();
+		GD.Print("Data Got!");
 	}
 }
