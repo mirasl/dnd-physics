@@ -153,4 +153,6 @@ public class Level : Node2D
 		playerStat.deleteScene();
 		GD.Print("Data Got!");
 	}
+
+	
 }
