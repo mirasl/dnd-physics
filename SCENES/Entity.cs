@@ -36,6 +36,7 @@ public class Entity : Node2D
 
 	public override void _Ready()
 	{
+		currenthp = hp;
 		tween = GetNode<Tween>("Tween");
 		currentAnimatedSprite = GetNode<AnimatedSprite>(SpriteName);
 		cell = GetNode<Node2D>("Cell");

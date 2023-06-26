@@ -771,6 +771,8 @@ position = Vector2( 178, 199 )
 
 [node name="Arrow" parent="." instance=ExtResource( 10 )]
 
+[node name="Entities" type="Node2D" parent="."]
+
 [node name="GameUI" parent="." instance=ExtResource( 11 )]
 
 [node name="AttackScreen" parent="." instance=ExtResource( 14 )]

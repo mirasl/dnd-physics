@@ -41,7 +41,7 @@ public class MainMenu : CanvasLayer
     public void GetPlayerData()
     {
         EmitSignal("sig_GetPlayerStats");
-        StatInput.Disconnect("sig_GetPlayerStats", this, "sig_GetPlayerStats");
+        //StatInput.Disconnect("sig_GetPlayerStats", this, "sig_GetPlayerStats");
     }
 
     public void sig_OnDoneButtonPressed()

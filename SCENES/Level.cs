@@ -8,6 +8,7 @@ public class Level : Node2D
 	GameUI sidebar;
 	AttackScreen attackScreen;
 	CanvasLayer mainMenu;
+	Node2D entities;
 
 	public bool ActiveMode {private set; get;} = false;
 	private Entity activeEntity;
@@ -31,6 +32,8 @@ public class Level : Node2D
 		sidebar = GetNode<GameUI>("GameUI");
 		attackScreen = GetNode<AttackScreen>("AttackScreen");
 		mainMenu = GetNode<CanvasLayer>("MainMenu");
+		entities = GetNode<Node2D>("Entities");
+
 		mainMenu.Connect("sig_GetPlayerStats", this, "GetPlayerData");
 
 		activePopup.Hide();
@@ -112,7 +115,7 @@ public class Level : Node2D
 
 	public Vector2 GetTileManhattanDistance(Vector2 tilePos)
 	{
-		if (activeEntity == null)
+		if (activeEntity is null)
 		{
 			return Vector2.Zero;
 		}
@@ -150,9 +153,27 @@ public class Level : Node2D
 	public void GetPlayerData()
 	{
 		PlayerStatInput playerStat = GetNode<PlayerStatInput>("PlayerStatInput");
+		CreateEntity(playerStat);
 		playerStat.deleteScene();
 		GD.Print("Data Got!");
 	}
 
-	
+	private void CreateEntity(PlayerStatInput playerStat)
+	{
+		PackedScene entityScene = GD.Load<PackedScene>("res://SCENES/Entity.tscn");
+		Entity entity = entityScene.Instance<Entity>();
+
+		entity.name = playerStat.GetNode<LineEdit>("GridContainer/NameInput").Text;
+		entity.hp = float.Parse(playerStat.GetNode<LineEdit>("GridContainer/HealthInput").Text);
+		entity.stamina = float.Parse(playerStat.GetNode<LineEdit>("GridContainer/StaminaInput").Text);
+		entity.str = (int)float.Parse(playerStat.GetNode<LineEdit>("GridContainer/StrengthInput").Text);
+		entity.mass = float.Parse(playerStat.GetNode<LineEdit>("GridContainer/MassInput").Text);
+		entity.height = float.Parse(playerStat.GetNode<LineEdit>("GridContainer/HeightInput").Text);
+
+		entities.AddChild(entity);
+		entity.Connect("Threatened", this, "sig_Threatened");
+		entity.Connect("ToActiveMode", this, "sig_ToActiveMode");
+		GD.Randomize();
+		entity.Position = new Vector2(GD.Randi()%68 * 16 + 2, GD.Randi()%41 * 16 - 10);
+	}
 }

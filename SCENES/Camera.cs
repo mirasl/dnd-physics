@@ -8,7 +8,6 @@ public class Camera : Camera2D
 	public override void _PhysicsProcess(float delta)
 	{
 		Vector2 velocity = Vector2.Zero;
-		GD.Print(Position);
 		if (Input.IsActionPressed("up") && Position.y > 100)
 		{
 			velocity.y -= SPEED;

@@ -50,7 +50,7 @@ public class AttackScreen : CanvasLayer
 		attackerSprite.Show();
 		recipientSprite.Show();
 		
-		recipientAnimationPlayer.Play("reset");
+		recipientAnimationPlayer.Play("RESET");
 		recipientSprite.Frame = 3;
 		recipientSprite.Animation = recipient.weaponName + "Down";
 
