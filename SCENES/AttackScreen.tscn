@@ -168,8 +168,8 @@ script = ExtResource( 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 5.0
-margin_top = 5.0
-margin_right = -5.0
+margin_top = 4.0
+margin_right = -4.0
 margin_bottom = -5.0
 color = Color( 0.658824, 0.415686, 0.858824, 1 )
 
