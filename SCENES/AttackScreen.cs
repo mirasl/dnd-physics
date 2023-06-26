@@ -13,17 +13,22 @@ public class AttackScreen : CanvasLayer
 	Entity attacker;
 	Entity recipient;
 	int distance;
-	AnimatedSprite animatedSprite;
+	AnimatedSprite attackerSprite;
+	AnimatedSprite recipientSprite;
+	AnimationPlayer recipientAnimationPlayer;
 
 
 	public override void _Ready()
 	{
 		timer = GetNode<Timer>("Timer");
 		attackSelect = GetNode<ColorRect>("AttackSelect");
-		animatedSprite = GetNode<AnimatedSprite>("AnimatedSprite");
+		attackerSprite = GetNode<AnimatedSprite>("Attacker");
 		colorRect = GetNode<ColorRect>("ColorRect");
+		recipientSprite = GetNode<AnimatedSprite>("Recipient");
+		recipientAnimationPlayer = GetNode<AnimationPlayer>("Recipient/AnimationPlayer");
 
-		animatedSprite.Hide();
+		attackerSprite.Hide();
+		recipientSprite.Hide();
 		colorRect.Color = new Color("a86adb");
 	}
 
@@ -42,7 +47,13 @@ public class AttackScreen : CanvasLayer
 		float work = torque * Mathf.Pi/2;
 		float damage = 0;
 
-		animatedSprite.Show();
+		attackerSprite.Show();
+		recipientSprite.Show();
+		
+		recipientAnimationPlayer.Play("reset");
+		recipientSprite.Frame = 3;
+		recipientSprite.Animation = recipient.weaponName + "Down";
+
 		string animationName = attacker.weaponName;
 
         if (direction == Level.Direction.Side) 
@@ -63,10 +74,10 @@ public class AttackScreen : CanvasLayer
 		else if (direction == Level.Direction.Stab) 
 		{
 		   damage = distance * attacker.str;
-           animationName += "Stab";
+           animationName = "SwordStab";
         }
 
-		animatedSprite.Play(animationName);
+		attackerSprite.Play(animationName);
 
 		if (direction != Level.Direction.Stab)
 		{
@@ -175,6 +186,8 @@ public class AttackScreen : CanvasLayer
 
 		colorRect.Color = Colors.Red;
 
+		recipientAnimationPlayer.Play("ouch");
+
 		float time = 0;
 		while (time < 10)
 		{
@@ -184,6 +197,12 @@ public class AttackScreen : CanvasLayer
 		}
 
 		Clear();
+
+		recipient.hp -= damage;
+		if (recipient.hp <= 0)
+		{
+			recipient.QueueFree();
+		}
 
     	// float damage = 0;
         // if (choice == Direction.Side) 
@@ -206,7 +225,8 @@ public class AttackScreen : CanvasLayer
 	
 	private void Clear()
 	{
-		animatedSprite.Hide();
+		attackerSprite.Hide();
+		recipientSprite.Hide();
 		colorRect.Color = new Color("a86adb");
 		Hide();
 	}

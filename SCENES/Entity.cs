@@ -22,7 +22,7 @@ public class Entity : Node2D
     public float height = 1.6f;
 	public float weaponLength = 1;
 	public float weaponMass = 10;
-	public string weaponName = "Hammer";
+	public string weaponName = "Sword";
 
 	Tween tween;
 	AnimatedSprite currentAnimatedSprite;

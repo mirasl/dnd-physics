@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=2]
+[gd_scene load_steps=68 format=2]
 
 [ext_resource path="res://SCENES/AttackScreen.cs" type="Script" id=1]
 [ext_resource path="res://ASSETS/Fonts/BasicFont.theme" type="Theme" id=2]
@@ -107,6 +107,60 @@ animations = [ {
 "speed": 20.0
 } ]
 
+[sub_resource type="Animation" id=6]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 179, 91 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "ouch"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 179, 91 ), Vector2( 369, 52 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 1080.0 ]
+}
+
 [node name="AttackScreen" type="CanvasLayer"]
 script = ExtResource( 1 )
 
@@ -184,13 +238,23 @@ margin_bottom = 15.0
 theme = ExtResource( 2 )
 text = "Select attack direction:"
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 153, 93 )
+[node name="Attacker" type="AnimatedSprite" parent="."]
+position = Vector2( 148, 92 )
 frames = SubResource( 4 )
 animation = "SwordUp"
-frame = 4
+frame = 8
 playing = true
 flip_h = true
+
+[node name="Recipient" type="AnimatedSprite" parent="."]
+position = Vector2( 179, 91 )
+frames = SubResource( 4 )
+animation = "HammerDown"
+frame = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Recipient"]
+anims/RESET = SubResource( 6 )
+anims/ouch = SubResource( 5 )
 
 [connection signal="pressed" from="AttackSelect/Side" to="." method="sig_SidePressed"]
 [connection signal="pressed" from="AttackSelect/Down" to="." method="sig_DownPressed"]
