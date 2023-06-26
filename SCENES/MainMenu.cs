@@ -43,4 +43,9 @@ public class MainMenu : CanvasLayer
         EmitSignal("sig_GetPlayerStats");
         StatInput.Disconnect("sig_GetPlayerStats", this, "sig_GetPlayerStats");
     }
+
+    public void sig_OnDoneButtonPressed()
+    {
+        QueueFree();
+    }
 }

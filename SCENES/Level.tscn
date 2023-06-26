@@ -805,5 +805,6 @@ visible = false
 [connection signal="timeout" from="ActiveCooldown" to="." method="sig_ActiveCooldownFinished"]
 [connection signal="Threatened" from="Player" to="." method="sig_Threatened"]
 [connection signal="ToActiveMode" from="Player" to="." method="sig_ToActiveMode"]
+[connection signal="pressed" from="MainMenu/DoneButton" to="MainMenu" method="sig_OnDoneButtonPressed"]
 
 [editable path="MainMenu"]
