@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=2]
+[gd_scene load_steps=44 format=2]
 
 [ext_resource path="res://ASSETS/tilesets/grass.png" type="Texture" id=1]
 [ext_resource path="res://ASSETS/tilesets/walls/walls.png" type="Texture" id=2]
@@ -12,7 +12,6 @@
 [ext_resource path="res://SCENES/Arrow.tscn" type="PackedScene" id=10]
 [ext_resource path="res://SCENES/GameUI.tscn" type="PackedScene" id=11]
 [ext_resource path="res://SCENES/MainMenu.tscn" type="PackedScene" id=12]
-[ext_resource path="res://SCENES/PlayerStatInput.tscn" type="PackedScene" id=13]
 [ext_resource path="res://SCENES/AttackScreen.tscn" type="PackedScene" id=14]
 
 [sub_resource type="TileSet" id=1]
@@ -796,14 +795,15 @@ position = Vector2( 178, 199 )
 
 [node name="GameUI" parent="." instance=ExtResource( 11 )]
 
-[node name="MainMenu" parent="." instance=ExtResource( 12 )]
-
-[node name="PlayerStatInput" parent="." instance=ExtResource( 13 )]
-
 [node name="AttackScreen" parent="." instance=ExtResource( 14 )]
+visible = false
+
+[node name="MainMenu" parent="." instance=ExtResource( 12 )]
 
 [connection signal="Threatened" from="Jeff" to="." method="sig_Threatened"]
 [connection signal="ToActiveMode" from="Jeff" to="." method="sig_ToActiveMode"]
 [connection signal="timeout" from="ActiveCooldown" to="." method="sig_ActiveCooldownFinished"]
 [connection signal="Threatened" from="Player" to="." method="sig_Threatened"]
 [connection signal="ToActiveMode" from="Player" to="." method="sig_ToActiveMode"]
+
+[editable path="MainMenu"]
