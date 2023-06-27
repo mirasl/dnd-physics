@@ -150,6 +150,7 @@ public class Level : Node2D
 	public void GetPlayerData()
 	{
 		PlayerStatInput playerStat = GetNode<PlayerStatInput>("PlayerStatInput");
+		GD.Print("deleteScene");
 		playerStat.deleteScene();
 		GD.Print("Data Got!");
 	}

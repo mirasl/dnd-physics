@@ -32,16 +32,16 @@ public class MainMenu : CanvasLayer
         var playerStat = PlayerStat.Instance<PlayerStatInput>();
         GetParent().AddChild(playerStat);
         StatInput = playerStat;
-        StatInput.Show();
+        //StatInput.Show();
         StatInput.Connect("sig_GetPlayerData", this, "GetPlayerData");
         
-
     }
 
     public void GetPlayerData()
     {
+        GD.Print("MainMenu siggnal");
         EmitSignal("sig_GetPlayerStats");
-        StatInput.Disconnect("sig_GetPlayerStats", this, "sig_GetPlayerStats");
+        //StatInput.Disconnect("sig_GetPlayerStats", this, "sig_GetPlayerStats");
     }
 
     public void sig_OnDoneButtonPressed()

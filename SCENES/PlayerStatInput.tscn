@@ -179,16 +179,25 @@ text = "n/a"
 caret_blink = true
 caret_blink_speed = 0.5
 
+[node name="WeaponSelectButton" type="Button" parent="."]
+margin_left = 140.0
+margin_top = 155.0
+margin_right = 238.0
+margin_bottom = 175.0
+theme = ExtResource( 1 )
+text = "Choose Weapon"
+
 [node name="SaveButton" type="Button" parent="."]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -19.0
-margin_top = -24.0
-margin_right = 19.0
-margin_bottom = -4.0
+margin_left = -67.0
+margin_top = -25.0
+margin_right = -29.0
+margin_bottom = -5.0
 theme = ExtResource( 1 )
 text = "SAVE"
 
+[connection signal="pressed" from="WeaponSelectButton" to="." method="sig_OnWeaponButtonPressed"]
 [connection signal="pressed" from="SaveButton" to="." method="sig_SaveButtonPressed"]

@@ -4,7 +4,9 @@ using System;
 public class PlayerStatInput : CanvasLayer
 {
 
-    [Signal] public delegate void sig_GetPlayerData();
+    public string weapon;
+
+     [Signal] public delegate void sig_GetPlayerData();
 
     // Declare member variables here. Examples:
     // private int a = 2;
@@ -16,16 +18,25 @@ public class PlayerStatInput : CanvasLayer
         
     }
 
-//  // Called every frame. 'delta' is the elapsed time since the previous frame.
-//  public override void _Process(float delta)
-//  {
-//      
-//  }
+    // Called every frame. 'delta' is the elapsed time since the previous frame.
+    public override void _Process(float delta)
+    {
+        
+    }
 
     public void sig_SaveButtonPressed() 
     {
         EmitSignal("sig_GetPlayerData");
     }
+
+    // public void sig_OnWeaponButtonPressed()
+    // {
+    //     var weaponSelect = GD.Load<PackedScene>("res://SCENES/WeaponSelect.tscn");
+    //     var WeaponSelect = weaponSelect.Instance<WeaponSelect>();
+    //     AddChild(WeaponSelect);
+    //     await ToSignal(WeaponSelect, "sig_WeaponChosen");
+    //     WeaponSelect.Connect("sig_");
+    // }
 
     public void deleteScene()
     {
